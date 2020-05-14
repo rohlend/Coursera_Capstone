@@ -1,0 +1,1093 @@
+{"meta" : {
+    "view" : {
+      "id" : "c3xr-3jw2",
+      "name" : "ZIP Codes and Postal Cities",
+      "attribution" : "US Postal Services",
+      "attributionLink" : "http://usps.com",
+      "averageRating" : 0,
+      "category" : "GIS Data",
+      "createdAt" : 1427315586,
+      "description" : "Many users confuse the name the Post Office delivers main to (e.g. Van Nuys, Hollywood) as a legal city (in this case Los Angeles), when they are a postal city. The County contains 88 legal cities, and over 400 postal names that are tied to the ZIPCodes. To support useability and geocoding, we have attached the first 3 postal cities to each address, based upon its ZIPCode.\r\n\r\nThis dataset is compiled from the US Postal Service website, usps.copm",
+      "displayType" : "table",
+      "downloadCount" : 608,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1427321098,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 10725143,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1427315925,
+      "publicationGroup" : 2546399,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1427315923,
+      "rowsUpdatedBy" : "8eab-3e7z",
+      "tableId" : 2546419,
+      "totalTimesRated" : 0,
+      "viewCount" : 2178,
+      "viewLastModified" : 1555454470,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1427316215,
+        "reviewedAutomatically" : false,
+        "state" : "approved",
+        "submissionId" : 522063,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1427316215,
+        "workflowId" : 1727,
+        "reviewer" : {
+          "id" : "htnu-ix3n",
+          "displayName" : "LAC_ODAdmin"
+        },
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "htnu-ix3n",
+          "displayName" : "LAC_ODAdmin"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 196501076,
+        "name" : "ZIP Code",
+        "dataTypeName" : "text",
+        "fieldName" : "zip_code",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27072523,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 370,
+          "largest" : "93591",
+          "null" : "0",
+          "top" : [ {
+            "item" : "91010",
+            "count" : "1"
+          }, {
+            "item" : "90405",
+            "count" : "1"
+          }, {
+            "item" : "91340",
+            "count" : "1"
+          }, {
+            "item" : "91040",
+            "count" : "1"
+          }, {
+            "item" : "91342",
+            "count" : "1"
+          }, {
+            "item" : "90270",
+            "count" : "1"
+          }, {
+            "item" : "91792",
+            "count" : "1"
+          }, {
+            "item" : "91706",
+            "count" : "1"
+          }, {
+            "item" : "91207",
+            "count" : "1"
+          }, {
+            "item" : "93560",
+            "count" : "1"
+          }, {
+            "item" : "91396",
+            "count" : "1"
+          }, {
+            "item" : "90621",
+            "count" : "1"
+          }, {
+            "item" : "91316",
+            "count" : "1"
+          }, {
+            "item" : "90250",
+            "count" : "1"
+          }, {
+            "item" : "90049",
+            "count" : "1"
+          }, {
+            "item" : "90802",
+            "count" : "1"
+          }, {
+            "item" : "91103",
+            "count" : "1"
+          }, {
+            "item" : "90038",
+            "count" : "1"
+          }, {
+            "item" : "91201",
+            "count" : "1"
+          }, {
+            "item" : "91205",
+            "count" : "1"
+          } ],
+          "smallest" : "90001",
+          "not_null" : "370",
+          "cardinality" : "370"
+        },
+        "format" : { }
+      }, {
+        "id" : 196501077,
+        "name" : "Postal City 1",
+        "dataTypeName" : "text",
+        "fieldName" : "postal_city_1",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27072524,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 370,
+          "largest" : "Yorba Linda",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Los Angeles",
+            "count" : "66"
+          }, {
+            "item" : "Long Beach",
+            "count" : "15"
+          }, {
+            "item" : "Glendale",
+            "count" : "9"
+          }, {
+            "item" : "Pasadena",
+            "count" : "8"
+          }, {
+            "item" : "Burbank",
+            "count" : "8"
+          }, {
+            "item" : "Whittier",
+            "count" : "7"
+          }, {
+            "item" : "Torrance",
+            "count" : "6"
+          }, {
+            "item" : "Inglewood",
+            "count" : "5"
+          }, {
+            "item" : "North Hollywood",
+            "count" : "5"
+          }, {
+            "item" : "Carson",
+            "count" : "5"
+          }, {
+            "item" : "Santa Monica",
+            "count" : "5"
+          }, {
+            "item" : "Compton",
+            "count" : "4"
+          }, {
+            "item" : "Palmdale",
+            "count" : "4"
+          }, {
+            "item" : "Sherman Oaks",
+            "count" : "4"
+          }, {
+            "item" : "Van Nuys",
+            "count" : "4"
+          }, {
+            "item" : "Encino",
+            "count" : "4"
+          }, {
+            "item" : "Northridge",
+            "count" : "4"
+          }, {
+            "item" : "Fullerton",
+            "count" : "4"
+          }, {
+            "item" : "Lancaster",
+            "count" : "4"
+          }, {
+            "item" : "Santa Clarita",
+            "count" : "4"
+          } ],
+          "smallest" : "Acton",
+          "not_null" : "370",
+          "cardinality" : "157"
+        },
+        "format" : { }
+      }, {
+        "id" : 196501078,
+        "name" : "Postal City 2",
+        "dataTypeName" : "text",
+        "fieldName" : "postal_city_2",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27072525,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 74,
+          "largest" : "Woodland Hills",
+          "null" : "296",
+          "top" : [ {
+            "item" : "Santa Clarita",
+            "count" : "4"
+          }, {
+            "item" : "Industry",
+            "count" : "3"
+          }, {
+            "item" : "Los Angeles",
+            "count" : "3"
+          }, {
+            "item" : "West Hollywood",
+            "count" : "3"
+          }, {
+            "item" : "Commerce",
+            "count" : "2"
+          }, {
+            "item" : "Palos Verdes Estates",
+            "count" : "2"
+          }, {
+            "item" : "Hi Vista",
+            "count" : "2"
+          }, {
+            "item" : "Rancho Dominguez",
+            "count" : "2"
+          }, {
+            "item" : "Irwindale",
+            "count" : "2"
+          }, {
+            "item" : "Hollywood",
+            "count" : "2"
+          }, {
+            "item" : "Bell Gardens",
+            "count" : "2"
+          }, {
+            "item" : "Quartz Hill",
+            "count" : "2"
+          }, {
+            "item" : "View Park",
+            "count" : "2"
+          }, {
+            "item" : "Northridge",
+            "count" : "1"
+          }, {
+            "item" : "Elizabeth Lake",
+            "count" : "1"
+          }, {
+            "item" : "South San Gabriel",
+            "count" : "1"
+          }, {
+            "item" : "Gorman",
+            "count" : "1"
+          }, {
+            "item" : "Agua Dulce",
+            "count" : "1"
+          }, {
+            "item" : "La Habra Heights",
+            "count" : "1"
+          }, {
+            "item" : "Val Verde",
+            "count" : "1"
+          } ],
+          "smallest" : "Agoura",
+          "not_null" : "74",
+          "cardinality" : "56"
+        },
+        "format" : { }
+      }, {
+        "id" : 196501079,
+        "name" : "Postal City 3",
+        "dataTypeName" : "text",
+        "fieldName" : "postal_city_3",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27072528,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 9,
+          "largest" : "Windsor Hills",
+          "null" : "361",
+          "top" : [ {
+            "item" : "Commerce",
+            "count" : "1"
+          }, {
+            "item" : "Rossmoor",
+            "count" : "1"
+          }, {
+            "item" : "Rolling Hills",
+            "count" : "1"
+          }, {
+            "item" : "Valinda",
+            "count" : "1"
+          }, {
+            "item" : "Leona Valley",
+            "count" : "1"
+          }, {
+            "item" : "Cudahy",
+            "count" : "1"
+          }, {
+            "item" : "Windsor Hills",
+            "count" : "1"
+          }, {
+            "item" : "Industry",
+            "count" : "1"
+          }, {
+            "item" : "Rolling Hills Estates",
+            "count" : "1"
+          } ],
+          "smallest" : "Commerce",
+          "not_null" : "9",
+          "cardinality" : "9"
+        },
+        "format" : { }
+      }, {
+        "id" : 196501080,
+        "name" : "Not Acceptable 1",
+        "dataTypeName" : "text",
+        "fieldName" : "not_acceptable_1",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27072531,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 69,
+          "largest" : "Westvern",
+          "null" : "301",
+          "top" : [ {
+            "item" : "Cal Tech",
+            "count" : "2"
+          }, {
+            "item" : "Los Nietos",
+            "count" : "2"
+          }, {
+            "item" : "Hollywood",
+            "count" : "2"
+          }, {
+            "item" : "Barrington",
+            "count" : "2"
+          }, {
+            "item" : "Federal",
+            "count" : "2"
+          }, {
+            "item" : "Crenshaw",
+            "count" : "2"
+          }, {
+            "item" : "Sanford",
+            "count" : "2"
+          }, {
+            "item" : "Bicentennial",
+            "count" : "1"
+          }, {
+            "item" : "Fort Macarthur",
+            "count" : "1"
+          }, {
+            "item" : "La Tijera",
+            "count" : "1"
+          }, {
+            "item" : "Belmont Shore",
+            "count" : "1"
+          }, {
+            "item" : "Greenmead",
+            "count" : "1"
+          }, {
+            "item" : "SHERMAN VILLAGE",
+            "count" : "1"
+          }, {
+            "item" : "Tropico Village",
+            "count" : "1"
+          }, {
+            "item" : "Lakeshore Learning",
+            "count" : "1"
+          }, {
+            "item" : "South",
+            "count" : "1"
+          }, {
+            "item" : "Market",
+            "count" : "1"
+          }, {
+            "item" : "North Long Beach",
+            "count" : "1"
+          }, {
+            "item" : "Ca State Univ Long Beach",
+            "count" : "1"
+          }, {
+            "item" : "Echo Park",
+            "count" : "1"
+          } ],
+          "smallest" : "Arco",
+          "not_null" : "69",
+          "cardinality" : "62"
+        },
+        "format" : { }
+      }, {
+        "id" : 196501081,
+        "name" : "Not Acceptable 2",
+        "dataTypeName" : "text",
+        "fieldName" : "not_acceptable_2",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27072533,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 14,
+          "largest" : "Wilshire-La Brea",
+          "null" : "356",
+          "top" : [ {
+            "item" : "Dominguez",
+            "count" : "1"
+          }, {
+            "item" : "Dockweiler",
+            "count" : "1"
+          }, {
+            "item" : "Mar Vista",
+            "count" : "1"
+          }, {
+            "item" : "Santa Catalina",
+            "count" : "1"
+          }, {
+            "item" : "Naples",
+            "count" : "1"
+          }, {
+            "item" : "Los Feliz",
+            "count" : "1"
+          }, {
+            "item" : "Sandberg",
+            "count" : "1"
+          }, {
+            "item" : "Saugus",
+            "count" : "1"
+          }, {
+            "item" : "Edendale",
+            "count" : "1"
+          }, {
+            "item" : "Metler Valley",
+            "count" : "1"
+          }, {
+            "item" : "Briggs",
+            "count" : "1"
+          }, {
+            "item" : "Green Valley",
+            "count" : "1"
+          }, {
+            "item" : "Wilshire-La Brea",
+            "count" : "1"
+          }, {
+            "item" : "Terminal Island",
+            "count" : "1"
+          } ],
+          "smallest" : "Briggs",
+          "not_null" : "14",
+          "cardinality" : "14"
+        },
+        "format" : { }
+      }, {
+        "id" : 196501083,
+        "name" : "Not Acceptable 3",
+        "dataTypeName" : "text",
+        "fieldName" : "not_acceptable_3",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27072535,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 6,
+          "largest" : "Three Points",
+          "null" : "364",
+          "top" : [ {
+            "item" : "Sleepy Valley",
+            "count" : "2"
+          }, {
+            "item" : "Farmer Market",
+            "count" : "1"
+          }, {
+            "item" : "Three Points",
+            "count" : "1"
+          }, {
+            "item" : "Neenach",
+            "count" : "1"
+          }, {
+            "item" : "Silver Lake",
+            "count" : "1"
+          } ],
+          "smallest" : "Farmer Market",
+          "not_null" : "6",
+          "cardinality" : "5"
+        },
+        "format" : { }
+      }, {
+        "id" : 196501085,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 27072537,
+        "width" : 196,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 311727964,
+        "name" : "Census Tracts 2010",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_pft9_733t",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50572450,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_pft9-733t",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 311727965,
+        "name" : "2011 Supervisorial District Boundaries (Official)",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_cbw7_skn5",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50572451,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_cbw7-skn5",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 311727966,
+        "name" : "Board Approved Statistical Areas",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_gj26_y8x3",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50572452,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_gj26-y8x3",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      }, {
+        "id" : 311727967,
+        "name" : "Zip Codes",
+        "dataTypeName" : "number",
+        "fieldName" : ":@computed_region_x8wy_s94z",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50572453,
+        "computationStrategy" : {
+          "source_columns" : [ "location" ],
+          "type" : "georegion_match_on_point",
+          "parameters" : {
+            "region" : "_x8wy-s94z",
+            "primary_key" : "_feature_id"
+          }
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Department" : {
+            "Department Name" : "Enterprise GIS"
+          },
+          "Dataset Update Frequency" : {
+            "Update Frequency" : "As available"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "8eab-3e7z",
+        "displayName" : "Mark Greninger",
+        "profileImageUrlLarge" : "/api/users/8eab-3e7z/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/8eab-3e7z/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/8eab-3e7z/profile_images/TINY",
+        "screenName" : "Mark Greninger",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "8eab-3e7z",
+        "displayName" : "Mark Greninger",
+        "profileImageUrlLarge" : "/api/users/8eab-3e7z/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/8eab-3e7z/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/8eab-3e7z/profile_images/TINY",
+        "screenName" : "Mark Greninger",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "zip codes", "cities", "postal cities" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType", "unsaved" ]
+    }
+  },
+  "data" : [ [ "row-cg6a_m8cj~37z4", "00000000-0000-0000-F93F-A2D2B8997D16", 0, 1500480899, null, 1500480899, null, "{ }", "90713", "Lakewood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90713\"}", "33.84871142900005", "-118.11357922799999", null, false ], "2057", "4", "17", "3332" ]
+, [ "row-q6bq.3482~xcud", "00000000-0000-0000-F47A-179B55BC4B62", 0, 1500480899, null, 1500480899, null, "{ }", "91306", "Winnetka", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91306\"}", "34.208404020000046", "-118.57593995299999", null, false ], "282", "3", "67", "4282" ]
+, [ "row-wzqr-jxv2_fdud", "00000000-0000-0000-006E-1237D3E0F815", 0, 1500480899, null, 1500480899, null, "{ }", "90002", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90002\"}", "33.94895070600006", "-118.24697958699994", null, false ], "1191", "2", "431", "22351" ]
+, [ "row-jazt.t9wi_pkyu", "00000000-0000-0000-9499-92C3B94FEFA4", 0, 1500480899, null, 1500480899, null, "{ }", "90506", "Torrance", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90506\"}", "33.88535286100006", "-118.32659746799999", null, false ], "782", "2", "170", "25720" ]
+, [ "row-u32v_nvh6~8cke", "00000000-0000-0000-60C1-F6C1C60F8D87", 0, 1500480899, null, 1500480899, null, "{ }", "90069", "West Hollywood", "Los Angeles", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90069\"}", "34.08940300900008", "-118.37978902499998", null, false ], "1340", "3", "106", "24034" ]
+, [ "row-jdtb.pm4s~46ze", "00000000-0000-0000-D2E5-23D31D402144", 0, 1500480899, null, 1500480899, null, "{ }", "91361", "Westlake Village", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91361\"}", "34.15138016700007", "-118.83569741699995", null, false ], null, null, null, "19342" ]
+, [ "row-z4vm_jm6y_ive8", "00000000-0000-0000-6B2E-166F0E1E5E32", 0, 1500480899, null, 1500480899, null, "{ }", "90064", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90064\"}", "34.03541197100003", "-118.43217675599999", null, false ], "819", "2", "402", "24029" ]
+, [ "row-q5ah_6en4.xfs5", "00000000-0000-0000-0187-510AC6104E77", 0, 1500480899, null, 1500480899, null, "{ }", "91308", "West Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91308\"}", "34.20049176500004", "-118.62922710099997", null, false ], "427", "3", "441", "4283" ]
+, [ "row-kwef~phnm.6bif", "00000000-0000-0000-FAC0-67553D60523C", 0, 1500480899, null, 1500480899, null, "{ }", "91702", "Azusa", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91702\"}", "34.12712200200008", "-117.90620949499998", null, false ], "2318", "1", "287", "8894" ]
+, [ "row-8t4h.5g5z.cv4j", "00000000-0000-0000-C92B-5BC6DD2CD4A3", 0, 1500480899, null, 1500480899, null, "{ }", "91104", "Pasadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91104\"}", "34.16700046200003", "-118.12758752599996", null, false ], "1796", "5", "81", "3231" ]
+, [ "row-tjjf.n8iu_arfu", "00000000-0000-0000-69CB-2C0F4742A2AE", 0, 1500480899, null, 1500480899, null, "{ }", "93535", "Lancaster", "Hi Vista", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93535\"}", "34.688761758000055", "-118.05928838399996", null, false ], "232", "5", "18", "26966" ]
+, [ "row-xfux~q4r3-84pe", "00000000-0000-0000-7884-98ABEA96B248", 0, 1500480899, null, 1500480899, null, "{ }", "91345", "San Fernando", "Mission Hills", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91345\"}", "34.26212132300003", "-118.46175755399997", null, false ], "400", "3", "386", "19330" ]
+, [ "row-nxgg.x9bm_ku59", "00000000-0000-0000-B9A7-A3290173CEEF", 0, 1500480899, null, 1500480899, null, "{ }", "91803", "Alhambra", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91803\"}", "34.07533388100006", "-118.14430710699997", null, false ], "1739", "5", "2", "10154" ]
+, [ "row-9gu5.br2f_wz5n", "00000000-0000-0000-81E4-2F0EC9BCCFEE", 0, 1500480899, null, 1500480899, null, "{ }", "91791", "West Covina", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91791\"}", "34.06466254800006", "-117.89769762999998", null, false ], "2246", "1", "105", "10147" ]
+, [ "row-pz83_fgi6~t98f", "00000000-0000-0000-D378-93F92A32CFFA", 0, 1500480899, null, 1500480899, null, "{ }", "90006", "Los Angeles", null, null, "Pico Heights", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90006\"}", "34.05010243400005", "-118.29268904499997", null, false ], "1004", "2", "372", "22723" ]
+, [ "row-y5yu~m6y5.48qi", "00000000-0000-0000-37EB-4158DDE5849B", 0, 1500480899, null, 1500480899, null, "{ }", "90018", "Los Angeles", null, null, "Cimarron", "Dockweiler", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90018\"}", "34.030771505000075", "-118.31686899999994", null, false ], "1111", "2", "355", "23079" ]
+, [ "row-6khu-fpcy~zz9c", "00000000-0000-0000-955B-6A98C094CA53", 0, 1500480899, null, 1500480899, null, "{ }", "90822", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90822\"}", "33.79831371000006", "-118.15136774099994", null, false ], "116", "4", "19", "2439" ]
+, [ "row-v539~vemx~j9wk", "00000000-0000-0000-2893-01FD5D298EFF", 0, 1500480899, null, 1500480899, null, "{ }", "90840", "Long Beach", null, null, "Ca State Univ Long Beach", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90840\"}", "33.77534166600003", "-118.11346625799996", null, false ], "113", "4", "19", "2439" ]
+, [ "row-3sbp~zdjb.jaem", "00000000-0000-0000-5124-0148F16EA02A", 0, 1500480899, null, 1500480899, null, "{ }", "90220", "Compton", "Rancho Dominguez", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90220\"}", "33.885730876000025", "-118.23452680099996", null, false ], "1243", "2", "7", "24349" ]
+, [ "row-b2vx_2yvm~79fx", "00000000-0000-0000-2875-21BE047C2F32", 0, 1500480899, null, 1500480899, null, "{ }", "91346", "Mission Hills", "San Fernando", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91346\"}", "34.26784369500007", "-118.46718880999998", null, false ], "601", "3", "386", "19330" ]
+, [ "row-8gkv~d4n6.b98v", "00000000-0000-0000-2C7D-F5B79547A8A7", 0, 1500480899, null, 1500480899, null, "{ }", "91210", "Glendale", null, null, "Glendale Galleria", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91210\"}", "34.14431084300003", "-118.25610844299996", null, false ], "1538", "5", "305", "4274" ]
+, [ "row-7kdn~yk3x~nhpk", "00000000-0000-0000-2B8A-963401AD7D2F", 0, 1500480899, null, 1500480899, null, "{ }", "90037", "Los Angeles", null, null, "Green", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90037\"}", "34.00349356000004", "-118.28709702299994", null, false ], "809", "2", "439", "23668" ]
+, [ "row-mmxm-sh3d~mivf", "00000000-0000-0000-DD7B-057BD843CA21", 0, 1500480899, null, 1500480899, null, "{ }", "91356", "Tarzana", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91356\"}", "34.16990292600008", "-118.54048905299999", null, false ], "342", "3", "422", "19339" ]
+, [ "row-qh2n~7sbi_wmt8", "00000000-0000-0000-7E0C-EE6A34120820", 0, 1500480899, null, 1500480899, null, "{ }", "91724", "Covina", "Charter Oak", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91724\"}", "34.09123225600007", "-117.85833622499996", null, false ], "2322", "5", "8", "9308" ]
+, [ "row-swvm~vpaa.bbdn", "00000000-0000-0000-8DE4-9B2E9910C5A0", 0, 1500480899, null, 1500480899, null, "{ }", "90035", "Los Angeles", null, null, "Preuss", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90035\"}", "34.054282330000035", "-118.38385594999994", null, false ], "1183", "2", "341", "23666" ]
+, [ "row-uztp.jzhb.im7x", "00000000-0000-0000-4121-A1589896D792", 0, 1500480899, null, 1500480899, null, "{ }", "91202", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91202\"}", "34.163611358000026", "-118.26495921899999", null, false ], "1399", "5", "305", "3628" ]
+, [ "row-kykh~7ft9_4749", "00000000-0000-0000-360C-4C2AA2DDD658", 0, 1500480899, null, 1500480899, null, "{ }", "91733", "South El Monte", "El Monte", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91733\"}", "34.05510353600005", "-118.046996364", null, false ], "1877", "1", "99", "9314" ]
+, [ "row-9wre.dyi7-fku3", "00000000-0000-0000-5FEC-CE6E80274E44", 0, 1500480899, null, 1500480899, null, "{ }", "90620", "Buena Park", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90620\"}", "33.842780497000035", "-118.01234928999997", null, false ], null, null, null, "25727" ]
+, [ "row-2h39.6wf6-esrf", "00000000-0000-0000-BC4A-07763D33ADE9", 0, 1500480899, null, 1500480899, null, "{ }", "90638", "La Mirada", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90638\"}", "33.90267205300006", "-118.00708748799997", null, false ], "1932", "4", "315", "25732" ]
+, [ "row-rqjn_hy64.amvz", "00000000-0000-0000-BE39-6663D326934E", 0, 1500480899, null, 1500480899, null, "{ }", "90045", "Los Angeles", "Westchester", null, "Playa Vista", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90045\"}", "33.961520807000056", "-118.39344972199996", null, false ], "1231", "2", "440", "23676" ]
+, [ "row-chy7-k85v-5pgu", "00000000-0000-0000-EA00-779B1757591A", 0, 1500480899, null, 1500480899, null, "{ }", "90602", "Whittier", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90602\"}", "33.97114064900006", "-118.03505628799996", null, false ], "1917", "4", "108", "25722" ]
+, [ "row-bzv5_rpqe-v8yt", "00000000-0000-0000-905A-17720CBB664A", 0, 1500480899, null, 1500480899, null, "{ }", "93552", "Palmdale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93552\"}", "34.56282177300005", "-118.03543864899996", null, false ], "164", "5", "77", "27325" ]
+, [ "row-stur.tz5j-cnpw", "00000000-0000-0000-E595-7CCD6449E36D", 0, 1500480899, null, 1500480899, null, "{ }", "90401", "Santa Monica", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90401\"}", "34.01760179300004", "-118.49296772799994", null, false ], "372", "3", "93", "25426" ]
+, [ "row-p64u-pji4~4brp", "00000000-0000-0000-CCD7-D32C022B2CCE", 0, 1500480899, null, 1500480899, null, "{ }", "93553", "Pearblossom", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93553\"}", "34.470473026000036", "-117.89937914699999", null, false ], "1", "5", "201", "27326" ]
+, [ "row-y8rk_ra55~mq39", "00000000-0000-0000-D5D9-FF08AC1DFA97", 0, 1500480899, null, 1500480899, null, "{ }", "91344", "Granada Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91344\"}", "34.27480004900008", "-118.50113633799998", null, false ], "481", "5", "363", "19329" ]
+, [ "row-aduf-d9vs~sxzx", "00000000-0000-0000-DADF-9D563054658F", 0, 1500480899, null, 1500480899, null, "{ }", "90033", "Los Angeles", null, null, "Boyle Heights", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90033\"}", "34.048564302000045", "-118.21151999699998", null, false ], "1149", "1", "332", "23450" ]
+, [ "row-2fs9~e7gu_rmmy", "00000000-0000-0000-9352-7B84B289E63D", 0, 1500480899, null, 1500480899, null, "{ }", "90717", "Lomita", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90717\"}", "33.79380359500004", "-118.31735998599999", null, false ], "121", "4", "318", "3335" ]
+, [ "row-z9m7_xggg.9abv", "00000000-0000-0000-7734-C8C8D781B775", 0, 1500480899, null, 1500480899, null, "{ }", "90278", "Redondo Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90278\"}", "33.87141408300005", "-118.37072968799998", null, false ], "1173", "4", "85", "25070" ]
+, [ "row-frex-6uuf.3hyk", "00000000-0000-0000-1BE8-BE8537C4E169", 0, 1500480899, null, 1500480899, null, "{ }", "90501", "Torrance", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90501\"}", "33.82909372900008", "-118.31420985699998", null, false ], "818", "4", "102", "25715" ]
+, [ "row-sazt-tb9d.hqdy", "00000000-0000-0000-24BC-BAE70E3D9323", 0, 1500480899, null, 1500480899, null, "{ }", "90802", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90802\"}", "33.76935424900006", "-118.184528823", null, false ], "69", "4", "19", "3704" ]
+, [ "row-jt4z_z26k.23in", "00000000-0000-0000-B1EE-C21E08B11404", 0, 1500480899, null, 1500480899, null, "{ }", "91008", "Duarte", "Bradbury", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91008\"}", "34.148373424000056", "-117.96596635599997", null, false ], "1766", "5", "293", "2449" ]
+, [ "row-en3w_gdsg_f9zh", "00000000-0000-0000-DFC1-AC215F60063D", 0, 1500480899, null, 1500480899, null, "{ }", "90304", "Inglewood", "Lennox", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90304\"}", "33.939383004000035", "-118.35812917199996", null, false ], "774", "2", "198", "25424" ]
+, [ "row-8kj6~u9qh_q6uy", "00000000-0000-0000-6FE5-A39726E8C8B3", 0, 1500480899, null, 1500480899, null, "{ }", "90660", "Pico Rivera", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90660\"}", "33.991331890000026", "-118.09123720999997", null, false ], "2169", "1", "82", "25735" ]
+, [ "row-r6j8-rup7_vw62", "00000000-0000-0000-D74E-A42202D5531C", 0, 1500480899, null, 1500480899, null, "{ }", "90720", "Los Alamitos", "Cypress", "Rossmoor", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90720\"}", "33.79895242600003", "-118.06819998999998", null, false ], null, null, null, "3337" ]
+, [ "row-q5zs_kt4r_yukk", "00000000-0000-0000-2935-F8B8A0FCA274", 0, 1500480899, null, 1500480899, null, "{ }", "90245", "El Segundo", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90245\"}", "33.92015201000004", "-118.40580691799994", null, false ], "876", "4", "296", "24683" ]
+, [ "row-g8qg.uuzt_demb", "00000000-0000-0000-8923-01C27C8AA680", 0, 1500480899, null, 1500480899, null, "{ }", "91030", "South Pasadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91030\"}", "34.11205352300004", "-118.15473946499998", null, false ], "1859", "5", "92", "3220" ]
+, [ "row-kw96.22a5.wyjy", "00000000-0000-0000-B82F-C5D0E7FB3B7F", 0, 1500480899, null, 1500480899, null, "{ }", "90031", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90031\"}", "34.077523764000034", "-118.21310592399999", null, false ], "1619", "1", "379", "23448" ]
+, [ "row-n6n3.34f8~cxqv", "00000000-0000-0000-B2A7-85D9B1D84109", 0, 1500480899, null, 1500480899, null, "{ }", "90089", "Los Angeles", null, null, "University Of Southern CA", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90089\"}", "34.02032176700004", "-118.28529818999999", null, false ], "754", "2", "355", "24341" ]
+, [ "row-fmy5_wwrp~pcxp", "00000000-0000-0000-DEC4-7BE3D15417E8", 0, 1500480899, null, 1500480899, null, "{ }", "91606", "North Hollywood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91606\"}", "34.186731132000034", "-118.38680620899999", null, false ], "552", "3", "394", "8889" ]
+, [ "row-fbur-injt-p7hv", "00000000-0000-0000-2404-3F993BC68DD2", 0, 1500480899, null, 1500480899, null, "{ }", "90732", "San Pedro", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90732\"}", "33.73946061100003", "-118.31340603099994", null, false ], "32", "4", "43", "3343" ]
+, [ "row-gydw-tdvy~r8v5", "00000000-0000-0000-FBB0-7E557E00BB4A", 0, 1500480899, null, 1500480899, null, "{ }", "91204", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91204\"}", "34.13669404900003", "-118.25949754799996", null, false ], "1337", "5", "305", "3631" ]
+, [ "row-pm25-ecyh-gtbu", "00000000-0000-0000-E3FC-FF262C8DF3B2", 0, 1500480899, null, 1500480899, null, "{ }", "91208", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91208\"}", "34.19002030100006", "-118.22716636199999", null, false ], "1582", "5", "305", "3636" ]
+, [ "row-yat8-3n7s.6zu6", "00000000-0000-0000-5B42-6C4FFC651917", 0, 1500480899, null, 1500480899, null, "{ }", "90301", "Inglewood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90301\"}", "33.956363286000055", "-118.35484869299995", null, false ], "978", "2", "13", "25421" ]
+, [ "row-bcrw_upiw_pb3e", "00000000-0000-0000-9AF9-3235DF881737", 0, 1500480899, null, 1500480899, null, "{ }", "91766", "Pomona", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91766\"}", "34.044180192000056", "-117.75239630099998", null, false ], "2268", "1", "83", "10125" ]
+, [ "row-usv5-e4fk~2mde", "00000000-0000-0000-E223-133C40E0D951", 0, 1500480899, null, 1500480899, null, "{ }", "90066", "Los Angeles", null, null, "Culver City", "Mar Vista", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90066\"}", "34.00215095400006", "-118.42903966199998", null, false ], "864", "2", "382", "24031" ]
+, [ "row-kq8e_9eaw.iur4", "00000000-0000-0000-A10F-C5559F283FA3", 0, 1500480899, null, 1500480899, null, "{ }", "91316", "Encino", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91316\"}", "34.16673107200006", "-118.51629606299997", null, false ], "474", "3", "26", "4286" ]
+, [ "row-wkbf-j3ir.v46h", "00000000-0000-0000-927B-47130610A780", 0, 1500480899, null, 1500480899, null, "{ }", "91101", "Pasadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91101\"}", "34.145210260000056", "-118.13830665399996", null, false ], "1747", "5", "81", "3224" ]
+, [ "row-iz8m~74j8.bg9q", "00000000-0000-0000-E9C9-11ACB5699F33", 0, 1500480899, null, 1500480899, null, "{ }", "90061", "Los Angeles", null, null, "South", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90061\"}", "33.923032748000026", "-118.27377958099999", null, false ], "1091", "2", "115", "24355" ]
+, [ "row-5u44-3fv9_53in", "00000000-0000-0000-5A83-3E233829CA15", 0, 1500480899, null, 1500480899, null, "{ }", "93523", "Edwards", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93523\"}", "35.02872367800006", "-117.89962681199995", null, false ], null, null, null, null ]
+, [ "row-yd39.4kdx-cdbr", "00000000-0000-0000-8552-FDC102D2D792", 0, 1500480899, null, 1500480899, null, "{ }", "91125", "Pasadena", null, null, "Cal Tech", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91125\"}", "34.13591194800006", "-118.12575827799998", null, false ], "1827", "5", "81", "3234" ]
+, [ "row-fmtg.eszc-e2rk", "00000000-0000-0000-AF01-B4D00BD53F75", 0, 1500480899, null, 1500480899, null, "{ }", "91773", "San Dimas", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91773\"}", "34.10316364100004", "-117.81483837499997", null, false ], "2341", "5", "88", "10134" ]
+, [ "row-3tx2.qpgq.7gdr", "00000000-0000-0000-88C3-1B8C173F4F08", 0, 1500480899, null, 1500480899, null, "{ }", "91762", "Ontario", "Montclair", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91762\"}", "34.05779309400003", "-117.66328892799999", null, false ], null, null, null, "9735" ]
+, [ "row-qyyz_i78v-yjjj", "00000000-0000-0000-BE4D-1EBB40240EB8", 0, 1500480899, null, 1500480899, null, "{ }", "90046", "Los Angeles", "West Hollywood", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90046\"}", "34.097150154000076", "-118.35826821299997", null, false ], "1528", "3", "359", "23677" ]
+, [ "row-hc75.sc2w_8gic", "00000000-0000-0000-311C-E4040F8E8C9F", 0, 1500480899, null, 1500480899, null, "{ }", "90292", "Marina Del Rey", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90292\"}", "33.98163383800005", "-118.45110794499999", null, false ], "456", "4", "58", "25074" ]
+, [ "row-t39t~duuq~nsip", "00000000-0000-0000-300D-719FFF9C5704", 0, 1500480899, null, 1500480899, null, "{ }", "91362", "Westlake Village", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91362\"}", "34.181860381000035", "-118.82387900199996", null, false ], null, null, null, "19344" ]
+, [ "row-vwrj_w666_b9c5", "00000000-0000-0000-BABB-8A899E739160", 0, 1500480899, null, 1500480899, null, "{ }", "93532", "Lake Hughes", "Elizabeth Lake", null, "Leona Valley", "Sandberg", "Three Points", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93532\"}", "34.679133225000044", "-118.44771884099998", null, false ], "280", "5", "47", "26964" ]
+, [ "row-uui9~cb4z~vf4p", "00000000-0000-0000-46E0-02A2F8A54727", 0, 1500480899, null, 1500480899, null, "{ }", "90014", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90014\"}", "34.04475373200006", "-118.25273671899998", null, false ], "656", "1", "343", "23075" ]
+, [ "row-ut3i.vs64~rxgf", "00000000-0000-0000-D22E-2E09D596EA7A", 0, 1500480899, null, 1500480899, null, "{ }", "91224", "La Crescenta", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91224\"}", "34.23131088900004", "-118.25147666699996", null, false ], "1581", "5", "305", "4275" ]
+, [ "row-zahy-f66g.5zq6", "00000000-0000-0000-AA1C-446806BD5D1D", 0, 1500480899, null, 1500480899, null, "{ }", "91355", "Valencia", "Santa Clarita", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91355\"}", "34.41829385500006", "-118.56477763399994", null, false ], "239", "5", "90", "19338" ]
+, [ "row-pkg5~mqwg~gsrf", "00000000-0000-0000-05DD-AF7D72D3E493", 0, 1500480899, null, 1500480899, null, "{ }", "90291", "Venice", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90291\"}", "33.99258325100004", "-118.46637629399999", null, false ], "624", "3", "432", "25073" ]
+, [ "row-jy8n~tn9d-q9ji", "00000000-0000-0000-6FF6-F7ECB6BF7BF3", 0, 1500480899, null, 1500480899, null, "{ }", "93586", "Lancaster", "Quartz Hill", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93586\"}", "34.687571226000045", "-118.14827844199999", null, false ], "325", "5", "18", "26965" ]
+, [ "row-adia~eqtu-8wb3", "00000000-0000-0000-75B1-17053489781F", 0, 1500480899, null, 1500480899, null, "{ }", "90036", "Los Angeles", null, null, "Miracle Mile", "Wilshire-La Brea", "Farmer Market", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90036\"}", "34.06892065300008", "-118.35080783799998", null, false ], "1309", "3", "120", "23667" ]
+, [ "row-imsz~2d44~6835", "00000000-0000-0000-AF81-8DE93ABDBCB0", 0, 1500480899, null, 1500480899, null, "{ }", "90610", "Whittier", null, null, "Los Nietos", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90610\"}", "33.96546172700005", "-118.06968598199995", null, false ], "1933", "4", "278", "25726" ]
+, [ "row-msfg-ynsc-x5pd", "00000000-0000-0000-84AE-B971CA23FE10", 0, 1500480899, null, 1500480899, null, "{ }", "90716", "Hawaiian Gardens", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90716\"}", "33.831370512000035", "-118.07144570999998", null, false ], "1986", "4", "281", "3334" ]
+, [ "row-95zg-gft7-8p4v", "00000000-0000-0000-C68C-92667BE1F9E1", 0, 1500480899, null, 1500480899, null, "{ }", "90071", "Los Angeles", null, null, "Arco", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90071\"}", "34.05194037200005", "-118.25408801599997", null, false ], "540", "1", "343", "24035" ]
+, [ "row-vqet.sscd~5cjq", "00000000-0000-0000-1BEA-F3A34C433648", 0, 1500480899, null, 1500480899, null, "{ }", "90275", "Rancho Palos Verdes", "Palos Verdes Estates", "Rolling Hills Estates", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90275\"}", "33.76310178600005", "-118.36665841799999", null, false ], "16", "4", "84", "25068" ]
+, [ "row-xtcu~98gj_w85a", "00000000-0000-0000-6359-484FCF9755B8", 0, 1500480899, null, 1500480899, null, "{ }", "91325", "Northridge", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91325\"}", "34.235881834000054", "-118.52105818899997", null, false ], "392", "3", "396", "18514" ]
+, [ "row-t3ur~is69-5xdi", "00000000-0000-0000-3859-C9EF714EE20E", 0, 1500480899, null, 1500480899, null, "{ }", "90808", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90808\"}", "33.82496162900003", "-118.11531722999996", null, false ], "2107", "4", "19", "4021" ]
+, [ "row-8gw3_68yp.k7bq", "00000000-0000-0000-5FCD-2D68D39CE6AA", 0, 1500480899, null, 1500480899, null, "{ }", "91334", "Pacoima", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91334\"}", "34.24160420700008", "-118.42561579799997", null, false ], "1370", "3", "325", "18907" ]
+, [ "row-62tk-hdem-pudr", "00000000-0000-0000-C3A1-E4D492A60B9F", 0, 1500480899, null, 1500480899, null, "{ }", "91754", "Monterey Park", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91754\"}", "34.053161318000036", "-118.13884977999999", null, false ], "2038", "1", "75", "9729" ]
+, [ "row-36cz~in9f_n9ej", "00000000-0000-0000-15B0-D19715CE241E", 0, 1500480899, null, 1500480899, null, "{ }", "90020", "Los Angeles", null, null, "Sanford", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90020\"}", "34.06636144500004", "-118.30164844599994", null, false ], "1305", "2", "381", "23081" ]
+, [ "row-gkxt_q2uy.ukv6", "00000000-0000-0000-9405-04CA9AA62102", 0, 1500480899, null, 1500480899, null, "{ }", "90249", "Gardena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90249\"}", "33.90050389500004", "-118.319137093", null, false ], "1130", "2", "304", "24686" ]
+, [ "row-fmib.yp83_mntg", "00000000-0000-0000-9E87-9C8A690B9C16", 0, 1500480899, null, 1500480899, null, "{ }", "90010", "Los Angeles", null, null, "Sanford", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90010\"}", "34.06139075900006", "-118.30969974099997", null, false ], "1001", "2", "372", "22726" ]
+, [ "row-a72b~2jf3-2htb", "00000000-0000-0000-36DE-4C6B4DDE2DEF", 0, 1500480899, null, 1500480899, null, "{ }", "90009", "Los Angeles", null, null, "Lax", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90009\"}", "33.954881639000064", "-118.38576775199999", null, false ], "693", "4", "440", "23676" ]
+, [ "row-vwx2.zn4y_g3xw", "00000000-0000-0000-870D-4B324EF4A9C5", 0, 1500480899, null, 1500480899, null, "{ }", "91763", "Montclair", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91763\"}", "34.07173187200004", "-117.69951758399998", null, false ], null, null, null, "9736" ]
+, [ "row-35nm-9yjn_3txs", "00000000-0000-0000-D4B2-25E06FB71F54", 0, 1500480899, null, 1500480899, null, "{ }", "91789", "Walnut", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91789\"}", "34.01633305100006", "-117.85816676999997", null, false ], "2299", "1", "104", "10145" ]
+, [ "row-mkyv_wnmu~wyfp", "00000000-0000-0000-6D45-43ED12828A43", 0, 1500480899, null, 1500480899, null, "{ }", "90749", "Carson", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90749\"}", "33.843853713000044", "-118.26332984199996", null, false ], "1241", "2", "297", "3698" ]
+, [ "row-zfej-tgr6-y2vj", "00000000-0000-0000-C9B6-61585A0E82D8", 0, 1500480899, null, 1500480899, null, "{ }", "90723", "Paramount", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90723\"}", "33.89537244300004", "-118.16535865799995", null, false ], "2117", "4", "80", "3339" ]
+, [ "row-hwux~b245~55kx", "00000000-0000-0000-1445-7F589CC1C697", 0, 1500480899, null, 1500480899, null, "{ }", "91605", "North Hollywood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91605\"}", "34.20546245100007", "-118.40193986299994", null, false ], "1397", "3", "394", "8888" ]
+, [ "row-7b6x~qtuw_pecx", "00000000-0000-0000-5691-B411565EBA1C", 0, 1500480899, null, 1500480899, null, "{ }", "91010", "Duarte", "Irwindale", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91010\"}", "34.13772381500007", "-117.96655727699999", null, false ], "1806", "5", "306", "2451" ]
+, [ "row-x2c6-ujkb.egge", "00000000-0000-0000-F90E-C8615165D08B", 0, 1500480899, null, 1500480899, null, "{ }", "91732", "El Monte", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91732\"}", "34.070680380000056", "-118.01605992399999", null, false ], "1687", "1", "307", "9313" ]
+, [ "row-9bt2-dq6c-vfnb", "00000000-0000-0000-4C9E-07C9CDDC0361", 0, 1500480899, null, 1500480899, null, "{ }", "93550", "Palmdale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93550\"}", "34.56908292600008", "-118.09611665099999", null, false ], "170", "5", "77", "27323" ]
+, [ "row-xp6n.yqre~g42a", "00000000-0000-0000-ED5D-0313B6D7CDC7", 0, 1500480899, null, 1500480899, null, "{ }", "91106", "Pasadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91106\"}", "34.14286395700003", "-118.12849997699999", null, false ], "1827", "5", "81", "3234" ]
+, [ "row-ks74.znd5.7r3a", "00000000-0000-0000-4E90-A2E9054B4079", 0, 1500480899, null, 1500480899, null, "{ }", "92821", "Brea", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92821\"}", "33.922841568000024", "-117.89508628099998", null, false ], null, null, null, "1539" ]
+, [ "row-ast6~fn79-v55p", "00000000-0000-0000-CC33-23253B2E7966", 0, 1500480899, null, 1500480899, null, "{ }", "91350", "Santa Clarita", null, null, "Bouquet Canyon", "Green Valley", "Sleepy Valley", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91350\"}", "34.447770373000026", "-118.51963737199998", null, false ], "211", "5", "90", "19333" ]
+, [ "row-vcf7~6ak9-qnzn", "00000000-0000-0000-7D70-6F9FBEB60D32", 0, 1500480899, null, 1500480899, null, "{ }", "92833", "Fullerton", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92833\"}", "33.87015403100003", "-117.96300740699996", null, false ], null, null, null, "1543" ]
+, [ "row-67dv~riva_gm24", "00000000-0000-0000-5D72-514ECA0D860B", 0, 1500480899, null, 1500480899, null, "{ }", "90091", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90091\"}", "33.999270215000024", "-118.15666864699995", null, false ], "2051", "1", "300", "23671" ]
+, [ "row-pewq.b8w8-cvkp", "00000000-0000-0000-BC4F-5B827DA7F856", 0, 1500480899, null, 1500480899, null, "{ }", "91201", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91201\"}", "34.16917296500003", "-118.291815698", null, false ], "1591", "5", "305", "3626" ]
+, [ "row-yuym.2a79~s3fd", "00000000-0000-0000-FD4A-EF2D6EB06CDA", 0, 1500480899, null, 1500480899, null, "{ }", "91755", "Monterey Park", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91755\"}", "34.057562809000046", "-118.11668590699998", null, false ], "2042", "1", "75", "9730" ]
+, [ "row-ugrk~wk6z~zny9", "00000000-0000-0000-2717-76B1898824F6", 0, 1500480899, null, 1500480899, null, "{ }", "90063", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90063\"}", "34.044884083000056", "-118.18593660399995", null, false ], "735", "1", "162", "24028" ]
+, [ "row-zp2n_qhax_2356", "00000000-0000-0000-4FC0-5A2CB3B978BF", 0, 1500480899, null, 1500480899, null, "{ }", "91416", "Encino", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91416\"}", "34.176111939000066", "-118.51873795599994", null, false ], "597", "3", "26", "4286" ]
+, [ "row-z9cc~nrbx~s7em", "00000000-0000-0000-C534-AFEC69DD1CC5", 0, 1500480899, null, 1500480899, null, "{ }", "90034", "Los Angeles", null, null, "Palms", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90034\"}", "34.028290507000065", "-118.40269589399998", null, false ], "658", "2", "393", "23451" ]
+, [ "row-s7s9~a6w9~2j4n", "00000000-0000-0000-7F7D-D24A6C6AF78D", 0, 1500480899, null, 1500480899, null, "{ }", "90021", "Los Angeles", null, null, "Market", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90021\"}", "34.030124099000034", "-118.24177861499999", null, false ], "1145", "2", "64", "23082" ]
+, [ "row-t3vi.a5se~6vpz", "00000000-0000-0000-3959-72D27326057F", 0, 1500480899, null, 1500480899, null, "{ }", "91722", "Covina", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91722\"}", "34.09580320200007", "-117.90580975499995", null, false ], "2310", "5", "8", "8901" ]
+, [ "row-cf3q_5cmw_zj2s", "00000000-0000-0000-6F59-6D5BA61956F2", 0, 1500480899, null, 1500480899, null, "{ }", "90280", "South Gate", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90280\"}", "33.94496199100007", "-118.19748997399995", null, false ], "772", "1", "100", "25071" ]
+, [ "row-dijr~vcc7_rbtw", "00000000-0000-0000-CC8C-CB09DA3D094C", 0, 1500480899, null, 1500480899, null, "{ }", "91108", "San Marino", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91108\"}", "34.120982509000044", "-118.11313603699995", null, false ], "1841", "5", "39", "3238" ]
+, [ "row-9qy2~w6pc-h7a2", "00000000-0000-0000-81CB-525DB4B69199", 0, 1500480899, null, 1500480899, null, "{ }", "91011", "La Canada Flintridge", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91011\"}", "34.20779137400007", "-118.20292992099996", null, false ], "1592", "5", "313", "2832" ]
+, [ "row-s8h2_q9du~ugu5", "00000000-0000-0000-9BD6-3AECB949DE60", 0, 1500480899, null, 1500480899, null, "{ }", "90806", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90806\"}", "33.80148122000003", "-118.18919970399998", null, false ], "127", "4", "19", "4018" ]
+, [ "row-hsa4.sxhk_dqk5", "00000000-0000-0000-DE19-6A7F9D5C262E", 0, 1500480899, null, 1500480899, null, "{ }", "90650", "Norwalk", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90650\"}", "33.90621323200003", "-118.08194758799999", null, false ], "2161", "4", "76", "25734" ]
+, [ "row-nkmu.xi4x~nwxz", "00000000-0000-0000-1A51-C053624C8436", 0, 1500480899, null, 1500480899, null, "{ }", "91311", "Chatsworth", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91311\"}", "34.25282301100003", "-118.59502756199998", null, false ], "500", "5", "337", "4284" ]
+, [ "row-dn2z~aj66.jpb4", "00000000-0000-0000-1CD4-BC86125EC224", 0, 1500480899, null, 1500480899, null, "{ }", "91382", "Santa Clarita", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91382\"}", "34.46564138000008", "-118.47090813499995", null, false ], "338", "5", "131", "19333" ]
+, [ "row-f9ky_xu6f_78es", "00000000-0000-0000-2338-93E7E0F18921", 0, 1500480899, null, 1500480899, null, "{ }", "91523", "Burbank", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91523\"}", "34.156433409000044", "-118.33329746599998", null, false ], "1449", "5", "295", "20150" ]
+, [ "row-pnhc_hzg8.u6as", "00000000-0000-0000-E926-A1524900DD36", 0, 1500480899, null, 1500480899, null, "{ }", "90248", "Gardena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90248\"}", "33.875441903000024", "-118.28237834699996", null, false ], "1100", "2", "367", "24685" ]
+, [ "row-5igq-sjwj~yew5", "00000000-0000-0000-B6F8-70E75641A7FC", 0, 1500480899, null, 1500480899, null, "{ }", "90250", "Hawthorne", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90250\"}", "33.914151557000025", "-118.34715803399996", null, false ], "893", "2", "10", "24687" ]
+, [ "row-n2tm~sg8j-5fda", "00000000-0000-0000-271F-3009AC361E3E", 0, 1500480899, null, 1500480899, null, "{ }", "90846", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90846\"}", "33.81634113800004", "-118.15870645499996", null, false ], "2125", "4", "19", "4019" ]
+, [ "row-uijn-55nf-2q37", "00000000-0000-0000-420E-6A7D1333CF66", 0, 1500480899, null, 1500480899, null, "{ }", "90222", "Compton", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90222\"}", "33.912031194000065", "-118.23502647699996", null, false ], "811", "2", "282", "24677" ]
+, [ "row-7b7c~ft56_297i", "00000000-0000-0000-0012-F322B16CDDBE", 0, 1500480899, null, 1500480899, null, "{ }", "91301", "Agoura Hills", "Agoura", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91301\"}", "34.14345053200003", "-118.76011604599995", null, false ], "360", "3", "1", "4276" ]
+, [ "row-sx2h.bs4n-yaau", "00000000-0000-0000-6F34-811472F08E66", 0, 1500480899, null, 1500480899, null, "{ }", "92372", "Pinon Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92372\"}", "34.420270833000075", "-117.61755774499994", null, false ], null, null, null, "11461" ]
+, [ "row-mu7m~8qn9_snda", "00000000-0000-0000-1E8F-9652D4659357", 0, 1500480899, null, 1500480899, null, "{ }", "91342", "Sylmar", "Lake View Terrace", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91342\"}", "34.30514122200003", "-118.43521825999994", null, false ], "544", "3", "421", "18912" ]
+, [ "row-pw2n-bb7h~a448", "00000000-0000-0000-9ECC-DA64B95462E6", 0, 1500480899, null, 1500480899, null, "{ }", "90604", "Whittier", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90604\"}", "33.92973274700006", "-118.01361803099996", null, false ], "2131", "4", "262", "25724" ]
+, [ "row-vcpn_787p_95qs", "00000000-0000-0000-080B-D867981A1C28", 0, 1500480899, null, 1500480899, null, "{ }", "91320", "Newbury Park", "Thousand Oaks", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91320\"}", "34.18136070500003", "-118.93538922299996", null, false ], null, null, null, "4288" ]
+, [ "row-iqfd-xvtr.3xc4", "00000000-0000-0000-3F76-5CE6C250A86A", 0, 1500480899, null, 1500480899, null, "{ }", "91390", "Santa Clarita", "Agua Dulce", null, "Mint Canyon", "Saugus", "Sleepy Valley", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91390\"}", "34.50319091800003", "-118.433428118", null, false ], "293", "5", "242", "19727" ]
+, [ "row-zywr~nbsf_qsgm", "00000000-0000-0000-4DE6-3F961E4168AE", 0, 1500480899, null, 1500480899, null, "{ }", "93225", "Frazier Park", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93225\"}", "34.825612051000064", "-119.05074911899999", null, false ], null, null, null, "5517" ]
+, [ "row-cii4_x57m~s6sy", "00000000-0000-0000-6D88-37D35BA557E8", 0, 1500480899, null, 1500480899, null, "{ }", "91412", "Panorama City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91412\"}", "34.224762965000025", "-118.44714964499997", null, false ], "351", "3", "395", "19730" ]
+, [ "row-8x62.i3qu.pt3m", "00000000-0000-0000-C6B0-9EA92A4C9D82", 0, 1500480899, null, 1500480899, null, "{ }", "90056", "Los Angeles", "Baldwin Hills", null, "Crenshaw", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90056\"}", "33.986513279000064", "-118.36959998699996", null, false ], "829", "2", "192", "24351" ]
+, [ "row-6nkc.9u4w-9rwi", "00000000-0000-0000-CCAF-ED19C0C32B9C", 0, 1500480899, null, 1500480899, null, "{ }", "91310", "Castaic", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91310\"}", "34.47299313000008", "-118.63613565899999", null, false ], "222", "5", "47", "19353" ]
+, [ "row-cyz6.65hk-bjev", "00000000-0000-0000-8CB5-14243155120B", 0, 1500480899, null, 1500480899, null, "{ }", "91020", "Montrose", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91020\"}", "34.209963877000064", "-118.23087699599995", null, false ], "1650", "5", "187", "2839" ]
+, [ "row-dmnc-wmrx~k5re", "00000000-0000-0000-EFE1-274DD5D6E7BE", 0, 1500480899, null, 1500480899, null, "{ }", "90261", "Lawndale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90261\"}", "33.89567224900003", "-118.37869842799995", null, false ], "673", "4", "10", "24690" ]
+, [ "row-mafn~c5bt.hmcm", "00000000-0000-0000-1B91-B405B8D21BB6", 0, 1500480899, null, 1500480899, null, "{ }", "91046", "Verdugo City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91046\"}", "34.211302138000065", "-118.23859807099996", null, false ], "1654", "5", "305", "2839" ]
+, [ "row-3e3r-h7ms~3k44", "00000000-0000-0000-BBAA-3C986C37C32D", 0, 1500480899, null, 1500480899, null, "{ }", "91384", "Castaic", "Val Verde", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91384\"}", "34.47299313000008", "-118.63613565899999", null, false ], "222", "5", "47", "19353" ]
+, [ "row-ijtu~6yw2_9knf", "00000000-0000-0000-F3B5-4944D07B18A6", 0, 1500480899, null, 1500480899, null, "{ }", "90731", "San Pedro", null, null, "Fort Macarthur", "Terminal Island", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90731\"}", "33.732721507000065", "-118.29229799399997", null, false ], "22", "4", "43", "3342" ]
+, [ "row-sc4r_nk8y_7n4j", "00000000-0000-0000-0E61-4A58FA66DC38", 0, 1500480899, null, 1500480899, null, "{ }", "90001", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90001\"}", "33.973274047000075", "-118.24896959899996", null, false ], "675", "2", "174", "22350" ]
+, [ "row-4pw9-ws4t_ejnc", "00000000-0000-0000-4F0A-B28424E32166", 0, 1500480899, null, 1500480899, null, "{ }", "90260", "Lawndale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90260\"}", "33.88913301500003", "-118.35229817499999", null, false ], "663", "2", "316", "24690" ]
+, [ "row-p29m.8p53_dtkj", "00000000-0000-0000-258A-80BA2E746C9B", 0, 1500480899, null, 1500480899, null, "{ }", "91614", "Studio City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91614\"}", "34.14228172600008", "-118.39481839899997", null, false ], "1671", "3", "404", "8492" ]
+, [ "row-e42i_pn5m.4imn", "00000000-0000-0000-51E1-F2546EDCE42D", 0, 1500480899, null, 1500480899, null, "{ }", "91711", "Claremont", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91711\"}", "34.10821253800003", "-117.71909617899996", null, false ], "2340", "1", "6", "8900" ]
+, [ "row-9du5-9r2y-icah", "00000000-0000-0000-A512-E0F9A9005FA4", 0, 1500480899, null, 1500480899, null, "{ }", "90242", "Downey", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90242\"}", "33.922033397000064", "-118.14007941599999", null, false ], "2145", "4", "303", "24682" ]
+, [ "row-cqtb~ptvq_2zkp", "00000000-0000-0000-9CDB-82D9BFF93F79", 0, 1500480899, null, 1500480899, null, "{ }", "90221", "Compton", "East Rancho Dominguez", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90221\"}", "33.895602729000075", "-118.20563685899998", null, false ], "706", "2", "7", "24350" ]
+, [ "row-md2y.atd6~ctud", "00000000-0000-0000-58E3-4E560BF3FE63", 0, 1500480899, null, 1500480899, null, "{ }", "91012", "La Canada Flintridge", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91012\"}", "34.20056128500005", "-118.19162856199995", null, false ], "1592", "5", "313", "2832" ]
+, [ "row-9xvu-9yp5.rch6", "00000000-0000-0000-D083-60E8D4596147", 0, 1500480899, null, 1500480899, null, "{ }", "90029", "Los Angeles", null, null, "Vermont", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90029\"}", "34.08989399500007", "-118.29490934199998", null, false ], "1431", "3", "344", "23447" ]
+, [ "row-unaj.d4tx.vpyk", "00000000-0000-0000-5995-79E836777AB6", 0, 1500480899, null, 1500480899, null, "{ }", "91723", "Covina", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91723\"}", "34.08496241300003", "-117.88642668499995", null, false ], "2319", "5", "8", "9305" ]
+, [ "row-ifgm~dtwr-ja8x", "00000000-0000-0000-5B9C-1D339311E427", 0, 1500480899, null, 1500480899, null, "{ }", "91387", "Canyon Country", "Santa Clarita", null, "Fair Oaks Ranch", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91387\"}", "34.41924106600004", "-118.43515742999995", null, false ], "284", "5", "90", "19354" ]
+, [ "row-wbm5-jwbw_hjv9", "00000000-0000-0000-705D-076D59B0278D", 0, 1500480899, null, 1500480899, null, "{ }", "90503", "Torrance", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90503\"}", "33.83995189800004", "-118.35390582699995", null, false ], "789", "4", "102", "25717" ]
+, [ "row-cft5.mxya.w3kw", "00000000-0000-0000-FCEB-E8DC273D4EE5", 0, 1500480899, null, 1500480899, null, "{ }", "91103", "Pasadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91103\"}", "34.16372432800006", "-118.15519569099996", null, false ], "1798", "5", "81", "3229" ]
+, [ "row-bqqh-dcia.tvgu", "00000000-0000-0000-93A0-496E71BA8500", 0, 1500480899, null, 1500480899, null, "{ }", "90266", "Manhattan Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90266\"}", "33.89004112200007", "-118.40324770999996", null, false ], "1138", "4", "68", "25064" ]
+, [ "row-642g_ef99-bsdb", "00000000-0000-0000-8604-78A131E13E4D", 0, 1500480899, null, 1500480899, null, "{ }", "91206", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91206\"}", "34.15379164500007", "-118.23720766899999", null, false ], "1527", "5", "305", "3634" ]
+, [ "row-gn6d.i3m3-adek", "00000000-0000-0000-2D68-AADCB8D0F8DC", 0, 1500480899, null, 1500480899, null, "{ }", "91381", "Stevenson Ranch", null, null, "Valencia", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91381\"}", "34.38906065800006", "-118.58203599599995", null, false ], "312", "5", "264", "19351" ]
+, [ "row-yypb-rqqr~xb2g", "00000000-0000-0000-7467-966723447761", 0, 1500480899, null, 1500480899, null, "{ }", "90804", "Long Beach", null, null, "East Long Beach", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90804\"}", "33.78173317000005", "-118.15235840199995", null, false ], "131", "4", "19", "4012" ]
+, [ "row-3hbb.xei7_ax4k", "00000000-0000-0000-3135-F3120DF3F5AF", 0, 1500480899, null, 1500480899, null, "{ }", "91801", "Alhambra", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91801\"}", "34.093891400000075", "-118.12939939299997", null, false ], "1702", "5", "2", "10151" ]
+, [ "row-f2xg-42vb~iyc7", "00000000-0000-0000-935B-6AD72908CD61", 0, 1500480899, null, 1500480899, null, "{ }", "90746", "Carson", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90746\"}", "33.85888308700004", "-118.26100960899998", null, false ], "704", "2", "297", "3698" ]
+, [ "row-xtyz.6ze9-ttee", "00000000-0000-0000-BF43-CE32CD7C8F02", 0, 1500480899, null, 1500480899, null, "{ }", "90623", "La Palma", "Buena Park", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90623\"}", "33.849641260000055", "-118.03998786999995", null, false ], null, null, null, "25729" ]
+, [ "row-jsj7.btde_89a9", "00000000-0000-0000-2343-AA4D050D4778", 0, 1500480899, null, 1500480899, null, "{ }", "91411", "Van Nuys", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91411\"}", "34.179331588000025", "-118.45792960399996", null, false ], "278", "3", "44", "19735" ]
+, [ "row-bbxy-nu3x.khh5", "00000000-0000-0000-7579-6417918578CC", 0, 1500480899, null, 1500480899, null, "{ }", "91322", "Newhall", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91322\"}", "34.379271361000065", "-118.54771914199995", null, false ], "244", "5", "90", "4290" ]
+, [ "row-kn9k_7im6.rz6n", "00000000-0000-0000-1F98-F46DDDB5B0D7", 0, 1500480899, null, 1500480899, null, "{ }", "91784", "Upland", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91784\"}", "34.13610312800006", "-117.65778815099998", null, false ], null, null, null, "10140" ]
+, [ "row-h7m8~r9wv-6d2s", "00000000-0000-0000-7AC2-321BB7EB113E", 0, 1500480899, null, 1500480899, null, "{ }", "90042", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90042\"}", "34.11332226400003", "-118.19142869099994", null, false ], "1666", "1", "350", "23673" ]
+, [ "row-mr83.kdz3~rrsq", "00000000-0000-0000-2FC0-A20F065D55C6", 0, 1500480899, null, 1500480899, null, "{ }", "91023", "Mt Wilson", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91023\"}", "34.30679232400007", "-118.023637614", null, false ], "3", "5", "95", "27323" ]
+, [ "row-j9bv_82zu_28vr", "00000000-0000-0000-16D6-FD35C555FD2F", 0, 1500480899, null, 1500480899, null, "{ }", "93560", "Rosamond", null, null, "Tropico Village", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93560\"}", "34.86017222500004", "-118.21146785699995", null, false ], null, null, null, "27330" ]
+, [ "row-gwew_upcp_eakp", "00000000-0000-0000-34E8-A4FC60725E51", 0, 1500480899, null, 1500480899, null, "{ }", "90095", "Los Angeles", null, null, "UCLA", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90095\"}", "34.05773226400004", "-118.44782746599998", null, false ], "443", "3", "60", "23442" ]
+, [ "row-p2ui~8fgy~gyid", "00000000-0000-0000-496B-D9E5FE32A660", 0, 1500480899, null, 1500480899, null, "{ }", "92886", "Yorba Linda", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92886\"}", "33.890032432000055", "-117.80659589899994", null, false ], null, null, null, "1563" ]
+, [ "row-yzcq.43rn-wsmv", "00000000-0000-0000-5E5F-0AFFE3B0A396", 0, 1500480899, null, 1500480899, null, "{ }", "91343", "North Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91343\"}", "34.235512509000046", "-118.47526617599999", null, false ], "509", "3", "391", "18914" ]
+, [ "row-4b2x_em7v-a43d", "00000000-0000-0000-751B-12F3E8B3A4DE", 0, 1500480899, null, 1500480899, null, "{ }", "91007", "Arcadia", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91007\"}", "34.12778244300006", "-118.05313585599998", null, false ], "1709", "5", "285", "2447" ]
+, [ "row-pir6~svxm.ax62", "00000000-0000-0000-4123-B26F06A81D22", 0, 1500480899, null, 1500480899, null, "{ }", "91001", "Altadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91001\"}", "34.19036355700007", "-118.13896709499994", null, false ], "1805", "5", "112", "2443" ]
+, [ "row-znsn_wp7j-q8ey", "00000000-0000-0000-EC63-EAA3E90C4A17", 0, 1500480899, null, 1500480899, null, "{ }", "91016", "Monrovia", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91016\"}", "34.14363302300006", "-118.00389825399998", null, false ], "1863", "5", "73", "2838" ]
+, [ "row-uk8z~h2u9~5w7i", "00000000-0000-0000-028E-C0FB74443F4E", 0, 1500480899, null, 1500480899, null, "{ }", "90747", "Carson", null, null, "Cal State Univ Dom Hi", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90747\"}", "33.86715163300005", "-118.25865896199997", null, false ], "704", "2", "297", "3698" ]
+, [ "row-jqn2_3huf.dsyh", "00000000-0000-0000-1DF8-BD7921D10783", 0, 1500480899, null, 1500480899, null, "{ }", "91768", "Pomona", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91768\"}", "34.06396300200004", "-117.77899642399996", null, false ], "2229", "1", "83", "10130" ]
+, [ "row-d8np_7t7k_2cxt", "00000000-0000-0000-199A-AD5767E987B3", 0, 1500480899, null, 1500480899, null, "{ }", "90241", "Downey", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90241\"}", "33.94049098000005", "-118.13166748599997", null, false ], "1927", "4", "303", "24681" ]
+, [ "row-x6fi~j2mb.9nm6", "00000000-0000-0000-6C42-D3087981A7AF", 0, 1500480899, null, 1500480899, null, "{ }", "90094", "Playa Vista", "Los Angeles", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90094\"}", "33.97293079200006", "-118.42532902699998", null, false ], "678", "2", "399", "24343" ]
+, [ "row-3e2p_sxcj_52w7", "00000000-0000-0000-BDBD-87B88013B8C3", 0, 1500480899, null, 1500480899, null, "{ }", "90025", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90025\"}", "34.045183888000054", "-118.45025632399995", null, false ], "608", "3", "438", "23443" ]
+, [ "row-ssim.wn5a~4tvz", "00000000-0000-0000-3924-8D9D87DA9397", 0, 1500480899, null, 1500480899, null, "{ }", "90019", "Los Angeles", null, null, "Rimpau", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90019\"}", "34.04884238300008", "-118.33610868499994", null, false ], "970", "2", "326", "23080" ]
+, [ "row-mceu-q9mn-3rm5", "00000000-0000-0000-3940-818385F7A043", 0, 1500480899, null, 1500480899, null, "{ }", "91522", "Burbank", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91522\"}", "34.149933281000074", "-118.34067962999995", null, false ], "1449", "5", "295", "20150" ]
+, [ "row-jn9i.w6zj~pjaz", "00000000-0000-0000-43D5-1F3118737206", 0, 1500480899, null, 1500480899, null, "{ }", "90703", "Cerritos", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90703\"}", "33.86693003700003", "-118.06904726699997", null, false ], "2099", "4", "299", "26324" ]
+, [ "row-cm82~zp3i~ng35", "00000000-0000-0000-39ED-B0211268A7A3", 0, 1500480899, null, 1500480899, null, "{ }", "90003", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90003\"}", "33.963350054000045", "-118.27393600099998", null, false ], "1019", "2", "358", "22352" ]
+, [ "row-j6rn.nzch~yyfn", "00000000-0000-0000-BD38-2BFE65D8C15A", 0, 1500480899, null, 1500480899, null, "{ }", "90706", "Bellflower", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90706\"}", "33.88544410600008", "-118.12830879699999", null, false ], "1892", "4", "291", "26326" ]
+, [ "row-hrcu.s64r~7ir4", "00000000-0000-0000-C71B-DFAFE832E52D", 0, 1500480899, null, 1500480899, null, "{ }", "91393", "North Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91393\"}", "34.235612444000026", "-118.47239847199995", null, false ], "357", "3", "391", "18914" ]
+, [ "row-x5ue-9wke~xt8a", "00000000-0000-0000-219B-50CBEA4D3A44", 0, 1500480899, null, 1500480899, null, "{ }", "91024", "Sierra Madre", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91024\"}", "34.16488010000006", "-118.05242761999995", null, false ], "1720", "5", "97", "2841" ]
+, [ "row-cp8g~fjgg-2xsw", "00000000-0000-0000-6BEF-D614EE76A563", 0, 1500480899, null, 1500480899, null, "{ }", "90240", "Downey", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90240\"}", "33.95620252000003", "-118.11982734599997", null, false ], "1846", "4", "303", "24680" ]
+, [ "row-88s7.jkix~vqgp", "00000000-0000-0000-64C5-6D0922A2E6B2", 0, 1500480899, null, 1500480899, null, "{ }", "90403", "Santa Monica", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90403\"}", "34.02842085700007", "-118.49353692399995", null, false ], "444", "3", "93", "25712" ]
+, [ "row-j6hq~gvuf-xmpc", "00000000-0000-0000-9CE2-EA9CACB916A1", 0, 1500480899, null, 1500480899, null, "{ }", "90023", "Los Angeles", "Commerce", null, "Lugo", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90023\"}", "34.02418013100004", "-118.20195663999999", null, false ], "1254", "1", "332", "23441" ]
+, [ "row-ddef_p4z3.j4v5", "00000000-0000-0000-566A-A674657FE79A", 0, 1500480899, null, 1500480899, null, "{ }", "92648", "Huntington Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92648\"}", "33.67566289500007", "-117.99972704899994", null, false ], null, null, null, "12564" ]
+, [ "row-cw83.kubd.f5f2", "00000000-0000-0000-2DE2-2E6FD88A4266", 0, 1500480899, null, 1500480899, null, "{ }", "90640", "Montebello", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90640\"}", "34.01403019900005", "-118.11318817699998", null, false ], "2067", "1", "74", "25733" ]
+, [ "row-fgmm-fj9e~3qdb", "00000000-0000-0000-3596-DC06D3B2A0F5", 0, 1500480899, null, 1500480899, null, "{ }", "90815", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90815\"}", "33.79356027400007", "-118.12236917399997", null, false ], "52", "4", "19", "2439" ]
+, [ "row-kvjb_fhqe_vb23", "00000000-0000-0000-2BB0-7B3CD6649C79", 0, 1500480899, null, 1500480899, null, "{ }", "91386", "Canyon Country", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91386\"}", "34.41635163800004", "-118.45303712799995", null, false ], "283", "5", "90", "19354" ]
+, [ "row-558p-cyb3.5ms4", "00000000-0000-0000-123B-A794161FD7A8", 0, 1500480899, null, 1500480899, null, "{ }", "90057", "Los Angeles", null, null, "Flint", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90057\"}", "34.06211202900005", "-118.27713826999997", null, false ], "692", "1", "442", "24352" ]
+, [ "row-zj49_hu7p~zhic", "00000000-0000-0000-7C7E-5783BF695D11", 0, 1500480899, null, 1500480899, null, "{ }", "90038", "Los Angeles", "West Hollywood", null, "Hollywood", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90038\"}", "34.088981543000045", "-118.32483773999996", null, false ], "1432", "3", "387", "23669" ]
+, [ "row-sc94~9azf.zt2r", "00000000-0000-0000-FAB7-F8D7591E8E9E", 0, 1500480899, null, 1500480899, null, "{ }", "91748", "Rowland Heights", "Industry", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91748\"}", "33.98518370700003", "-117.90124749899996", null, false ], "2220", "4", "234", "9329" ]
+, [ "row-frtd_zh7j_dypu", "00000000-0000-0000-78CD-4BC971AD6471", 0, 1500480899, null, 1500480899, null, "{ }", "90004", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90004\"}", "34.075720587000035", "-118.30301712299996", null, false ], "615", "2", "61", "22721" ]
+, [ "row-e8m4-ega8-4sb9", "00000000-0000-0000-C333-76939964EBEE", 0, 1500480899, null, 1500480899, null, "{ }", "90606", "Whittier", null, null, "Los Nietos", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90606\"}", "33.976393761000054", "-118.06602748799997", null, false ], "2108", "4", "278", "25726" ]
+, [ "row-9igk~pkdp~rkwa", "00000000-0000-0000-B493-E80D7D5901B0", 0, 1500480899, null, 1500480899, null, "{ }", "90631", "La Habra", "La Habra Heights", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90631\"}", "33.93180096900005", "-117.95265760399997", null, false ], null, null, null, "25731" ]
+, [ "row-axzh~fy5w_znkr", "00000000-0000-0000-E20F-3C5339B5DC61", 0, 1500480899, null, 1500480899, null, "{ }", "91770", "Rosemead", "South San Gabriel", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91770\"}", "34.06563148400005", "-118.08368993499994", null, false ], "1699", "1", "87", "10133" ]
+, [ "row-ieq6.4i3m-fmkd", "00000000-0000-0000-55AB-0EB9991CCCAD", 0, 1500480899, null, 1500480899, null, "{ }", "90704", "Avalon", null, null, "Catalina", "Santa Catalina", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90704\"}", "33.34416070100008", "-118.32659746799999", null, false ], "145", "4", "286", "26325" ]
+, [ "row-wc9p-pdmj-p38e", "00000000-0000-0000-0610-4472330635D7", 0, 1500480899, null, 1500480899, null, "{ }", "90043", "Los Angeles", "View Park", "Windsor Hills", "La Tijera", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90043\"}", "33.986730529000056", "-118.33290641499997", null, false ], "861", "2", "370", "23674" ]
+, [ "row-an74-pkn7-3hjf", "00000000-0000-0000-E6DB-FE1EDA2025A4", 0, 1500480899, null, 1500480899, null, "{ }", "91608", "Universal City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91608\"}", "34.13678094900007", "-118.35550913399999", null, false ], "1663", "3", "270", "8891" ]
+, [ "row-cwzf-9wvj.68hn", "00000000-0000-0000-0458-64EFBC0EEA34", 0, 1500480899, null, 1500480899, null, "{ }", "91746", "La Puente", "Bassett", "Industry", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91746\"}", "34.04617020400008", "-117.98488885499995", null, false ], "1976", "1", "12", "9327" ]
+, [ "row-m5d5-cb8p.evnu", "00000000-0000-0000-8B50-CD8ACFBCD39A", 0, 1500480899, null, 1500480899, null, "{ }", "91406", "Van Nuys", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91406\"}", "34.19981394400003", "-118.48688906499996", null, false ], "417", "3", "430", "19734" ]
+, [ "row-ia7r-fcms~xh3j", "00000000-0000-0000-FCD7-DE43CB1720EC", 0, 1500480899, null, 1500480899, null, "{ }", "92649", "Huntington Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92649\"}", "33.72098130300003", "-118.04372891899999", null, false ], null, null, null, "12565" ]
+, [ "row-khey-y6y4_7fh7", "00000000-0000-0000-CCC3-DA583DA9AEFF", 0, 1500480899, null, 1500480899, null, "{ }", "90810", "Long Beach", "Carson", null, "Cabrillo", "Dominguez", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90810\"}", "33.813560335000034", "-118.21653847799996", null, false ], "919", "4", "19", "4023" ]
+, [ "row-ev9c_wkk2_mw88", "00000000-0000-0000-2EFA-5A55166137BA", 0, 1500480899, null, 1500480899, null, "{ }", "90295", "Marina Del Rey", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90295\"}", "33.988120931000026", "-118.46967849899994", null, false ], "455", "3", "432", "25073" ]
+, [ "row-7uza~xcdm.r5rm", "00000000-0000-0000-3BDE-CB5D438C5489", 0, 1500480899, null, 1500480899, null, "{ }", "91765", "Diamond Bar", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91765\"}", "34.001864183000066", "-117.81637650699997", null, false ], "2315", "4", "302", "9741" ]
+, [ "row-wy24~7ea5_pgdq", "00000000-0000-0000-33EF-EF32F3A91AF0", 0, 1500480899, null, 1500480899, null, "{ }", "91790", "West Covina", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91790\"}", "34.066643870000064", "-117.93768905999997", null, false ], "1683", "1", "105", "10146" ]
+, [ "row-z935.gayr.4e97", "00000000-0000-0000-76CB-C80F44CC0D89", 0, 1500480899, null, 1500480899, null, "{ }", "90041", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90041\"}", "34.13538185700003", "-118.20684911599994", null, false ], "1665", "1", "345", "23672" ]
+, [ "row-wj4y~9fa4_5efn", "00000000-0000-0000-65E6-FDF1F0C892D1", 0, 1500480899, null, 1500480899, null, "{ }", "90005", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90005\"}", "34.05907052600003", "-118.30301712299996", null, false ], "999", "2", "372", "22722" ]
+, [ "row-ie8i-qpzx_fjbn", "00000000-0000-0000-0017-F5F504BD93D8", 0, 1500480899, null, 1500480899, null, "{ }", "93563", "Valyermo", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93563\"}", "34.41615176800008", "-117.78187716299999", null, false ], "3", "5", "95", "27333" ]
+, [ "row-b9db.8kwb-s2an", "00000000-0000-0000-A81B-9E4DD5E28941", 0, 1500480899, null, 1500480899, null, "{ }", "90302", "Inglewood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90302\"}", "33.97375199800007", "-118.35768598199996", null, false ], "899", "2", "13", "25422" ]
+, [ "row-ukdb.ist4~wm3m", "00000000-0000-0000-BD84-542C70499E3B", 0, 1500480899, null, 1500480899, null, "{ }", "90701", "Artesia", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90701\"}", "33.86631304700006", "-118.08104817199995", null, false ], "2053", "4", "212", "26323" ]
+, [ "row-s67f~kigw~9imc", "00000000-0000-0000-8DEE-28D06647DBAE", 0, 1500480899, null, 1500480899, null, "{ }", "92397", "Wrightwood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92397\"}", "34.38294289100003", "-117.60781624299995", null, false ], null, null, null, "11815" ]
+, [ "row-myu5-gcxi-va36", "00000000-0000-0000-10BB-8D606061B244", 0, 1500480899, null, 1500480899, null, "{ }", "90202", "Bell", "Bell Gardens", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90202\"}", "33.96823384100003", "-118.15010768899998", null, false ], "1919", "1", "290", "24345" ]
+, [ "row-fiwk_cck9_8khp", "00000000-0000-0000-9576-9D1E35558049", 0, 1500480899, null, 1500480899, null, "{ }", "91780", "Temple City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91780\"}", "34.10165157900008", "-118.05552995399995", null, false ], "1772", "5", "101", "10139" ]
+, [ "row-z4gz_feca_dxji", "00000000-0000-0000-28D2-0A7DAF9E3352", 0, 1500480899, null, 1500480899, null, "{ }", "90405", "Santa Monica", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90405\"}", "34.01013272900008", "-118.47267655199994", null, false ], "475", "3", "93", "25714" ]
+, [ "row-ews3_iat9~tjtb", "00000000-0000-0000-A684-A6E83A81CF47", 0, 1500480899, null, 1500480899, null, "{ }", "91372", "Calabasas", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91372\"}", "34.15413055600004", "-118.64236639699999", null, false ], "630", "3", "4", "4277" ]
+, [ "row-vpga-sksq_sra4", "00000000-0000-0000-78E5-E41B19B5A2BA", 0, 1500480899, null, 1500480899, null, "{ }", "91126", "Pasadena", null, null, "Cal Tech", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91126\"}", "34.13591194800006", "-118.12575827799998", null, false ], "1827", "5", "81", "3234" ]
+, [ "row-xnx5.gmvd.an6t", "00000000-0000-0000-01FE-A91FBEF52B29", 0, 1500480899, null, 1500480899, null, "{ }", "90303", "Inglewood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90303\"}", "33.93778404200003", "-118.33125965799996", null, false ], "898", "2", "13", "25423" ]
+, [ "row-b8b7_cf4y_82g3", "00000000-0000-0000-583B-BF43BEF1A381", 0, 1500480899, null, 1500480899, null, "{ }", "90807", "Long Beach", null, null, "Bixby Knolls", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90807\"}", "33.83250021400005", "-118.181317864", null, false ], "2123", "4", "19", "4019" ]
+, [ "row-vz7c-744r~6um9", "00000000-0000-0000-0903-D7234A9DF742", 0, 1500480899, null, 1500480899, null, "{ }", "91205", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91205\"}", "34.13853198600003", "-118.24386856299998", null, false ], "1336", "5", "305", "3632" ]
+, [ "row-bz6f-9yvq_p484", "00000000-0000-0000-604D-B657D7D60DB4", 0, 1500480899, null, 1500480899, null, "{ }", "91423", "Sherman Oaks", "Van Nuys", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91423\"}", "34.15306168500007", "-118.43295885699996", null, false ], "1516", "3", "44", "19736" ]
+, [ "row-k54k-atdi.rwwz", "00000000-0000-0000-45D9-C66BED935E76", 0, 1500480899, null, 1500480899, null, "{ }", "90293", "Playa Del Rey", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90293\"}", "33.95744084700004", "-118.43916786999995", null, false ], "657", "4", "440", "25075" ]
+, [ "row-zvzn~9m4q~wan6", "00000000-0000-0000-DB35-FFAD555A490D", 0, 1500480899, null, 1500480899, null, "{ }", "91351", "Canyon Country", "Santa Clarita", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91351\"}", "34.42298211600007", "-118.47143822599998", null, false ], "241", "5", "90", "19334" ]
+, [ "row-c7xi-cgq4~6mh4", "00000000-0000-0000-1EF7-20476BBF8889", 0, 1500480899, null, 1500480899, null, "{ }", "90232", "Culver City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90232\"}", "34.01970043100005", "-118.39595678999996", null, false ], "810", "2", "9", "24679" ]
+, [ "row-7egx_qycq_t9zg", "00000000-0000-0000-3154-2E871DB61621", 0, 1500480899, null, 1500480899, null, "{ }", "90277", "Redondo Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90277\"}", "33.83272180900008", "-118.38547663699995", null, false ], "645", "4", "85", "25069" ]
+, [ "row-6uj5~s3p9.gg4s", "00000000-0000-0000-A406-757DB5C8A808", 0, 1500480899, null, 1500480899, null, "{ }", "91401", "Van Nuys", "Sherman Oaks", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91401\"}", "34.181152145000055", "-118.43482720999998", null, false ], "1512", "3", "428", "19729" ]
+, [ "row-9uh8~qty3~nipa", "00000000-0000-0000-FBFD-03C254538066", 0, 1500480899, null, 1500480899, null, "{ }", "91750", "La Verne", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91750\"}", "34.11586409200004", "-117.77047586899994", null, false ], "2288", "5", "16", "9725" ]
+, [ "row-tht8~d75d.t787", "00000000-0000-0000-F587-1C2E0465F347", 0, 1500480899, null, 1500480899, null, "{ }", "91602", "North Hollywood", "Toluca Lake", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91602\"}", "34.15134106200003", "-118.36907858599994", null, false ], "1593", "3", "394", "8489" ]
+, [ "row-psb3-8mi7_3rqn", "00000000-0000-0000-6B9D-F0A41CEFD0CB", 0, 1500480899, null, 1500480899, null, "{ }", "91331", "Pacoima", null, null, "Lakeview Terrace", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91331\"}", "34.25726360600004", "-118.41981956099994", null, false ], "1373", "3", "397", "18907" ]
+, [ "row-hp4d-ph6c_csum", "00000000-0000-0000-7FC2-AD26A7094012", 0, 1500480899, null, 1500480899, null, "{ }", "91340", "San Fernando", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91340\"}", "34.28619265300006", "-118.43744724799996", null, false ], "383", "3", "37", "18910" ]
+, [ "row-wrhs~i9sf~evg5", "00000000-0000-0000-A707-E3EB42645DA8", 0, 1500480899, null, 1500480899, null, "{ }", "91335", "Reseda", null, null, "Encino", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91335\"}", "34.200183269000036", "-118.54031959799994", null, false ], "546", "3", "405", "18909" ]
+, [ "row-kh75.vkss~7jq8", "00000000-0000-0000-BA11-3682A4133126", 0, 1500480899, null, 1500480899, null, "{ }", "91321", "Newhall", null, null, "Friendly Valley", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91321\"}", "34.385523824000074", "-118.51401927999996", null, false ], "234", "5", "90", "4290" ]
+, [ "row-j8pd~wsqi.gywj", "00000000-0000-0000-EB5D-32DDAA3BF9B0", 0, 1500480899, null, 1500480899, null, "{ }", "91618", "North Hollywood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91618\"}", "34.182320952000055", "-118.38523766199995", null, false ], "1282", "3", "394", "8889" ]
+, [ "row-5vn7_suz7-fphi", "00000000-0000-0000-134D-EF2D055A4265", 0, 1500480899, null, 1500480899, null, "{ }", "91396", "Winnetka", "Canoga Park", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91396\"}", "34.20932081600006", "-118.57097795699997", null, false ], "419", "3", "67", "4282" ]
+, [ "row-9wh2-utpz_vupj", "00000000-0000-0000-301D-74D74622A1DD", 0, 1500480899, null, 1500480899, null, "{ }", "90744", "Wilmington", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90744\"}", "33.783723182000074", "-118.26266940199997", null, false ], "72", "4", "65", "3350" ]
+, [ "row-nkxz~wepf_rwuc", "00000000-0000-0000-2CEF-A2C21F422B15", 0, 1500480899, null, 1500480899, null, "{ }", "90670", "Santa Fe Springs", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90670\"}", "33.93592003500004", "-118.06608831799997", null, false ], "1876", "4", "91", "25736" ]
+, [ "row-xjr4.8nfb_yejd", "00000000-0000-0000-2857-EAF10B3610D1", 0, 1500480899, null, 1500480899, null, "{ }", "90039", "Los Angeles", null, null, "Griffith", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90039\"}", "34.11160164200004", "-118.26125727499999", null, false ], "1480", "1", "330", "23670" ]
+, [ "row-8jfz_ks57_wari", "00000000-0000-0000-80C7-E2EA955E4375", 0, 1500480899, null, 1500480899, null, "{ }", "91436", "Encino", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91436\"}", "34.15384378600004", "-118.48733660099998", null, false ], "433", "3", "26", "19737" ]
+, [ "row-9vv7.z845.3wki", "00000000-0000-0000-C584-1EDB0AA166BB", 0, 1500480899, null, 1500480899, null, "{ }", "92835", "Fullerton", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92835\"}", "33.90102095100008", "-117.91361772999994", null, false ], null, null, null, "1544" ]
+, [ "row-f2xz-rxkw~utt8", "00000000-0000-0000-F099-90989A7263B8", 0, 1500480899, null, 1500480899, null, "{ }", "91040", "Sunland", "Shdaow Hills", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91040\"}", "34.25970115500007", "-118.32449882999998", null, false ], "1657", "5", "45", "3221" ]
+, [ "row-yk7s.9jbu~f66s", "00000000-0000-0000-3BD6-3B960B90C2EE", 0, 1500480899, null, 1500480899, null, "{ }", "91709", "Chino Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91709\"}", "33.97585063500003", "-117.72535733099994", null, false ], null, null, null, "8897" ]
+, [ "row-hu6b.5n46~p4ha", "00000000-0000-0000-CDBB-381B439485E5", 0, 1500480899, null, 1500480899, null, "{ }", "91604", "Studio City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91604\"}", "34.144462919000034", "-118.39427961799998", null, false ], "1587", "3", "404", "8492" ]
+, [ "row-46wx-2h5k~ax9z", "00000000-0000-0000-263D-6FA62F2318F5", 0, 1500480899, null, 1500480899, null, "{ }", "91042", "Tujunga", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91042\"}", "34.25460011800004", "-118.28725778799998", null, false ], "1548", "5", "423", "3222" ]
+, [ "row-a87x~3gcv~b8cw", "00000000-0000-0000-C22A-01AE24526ACE", 0, 1500480899, null, 1500480899, null, "{ }", "91214", "La Crescenta", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91214\"}", "34.228573535000066", "-118.24694917199997", null, false ], "1530", "5", "187", "4275" ]
+, [ "row-7d7x-makf~hac8", "00000000-0000-0000-C716-1EEE736182AB", 0, 1500480899, null, 1500480899, null, "{ }", "93534", "Lancaster", "Hi Vista", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93534\"}", "34.68758426100004", "-118.14967753399998", null, false ], "325", "5", "18", "26965" ]
+, [ "row-x3vy.3sxc.gpju", "00000000-0000-0000-D147-869CD6CA6063", 0, 1500480899, null, 1500480899, null, "{ }", "90212", "Beverly Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90212\"}", "34.063841342000046", "-118.40025834599999", null, false ], "924", "3", "292", "24348" ]
+, [ "row-ik3x.csis~h4na", "00000000-0000-0000-99AF-3215AFE87CD9", 0, 1500480899, null, 1500480899, null, "{ }", "91745", "Hacienda Heights", "Industry", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91745\"}", "33.99778422300005", "-117.96604891099997", null, false ], "1895", "4", "181", "9325" ]
+, [ "row-qikx.casp_5atb", "00000000-0000-0000-7366-A8956306F286", 0, 1500480899, null, 1500480899, null, "{ }", "90745", "Carson", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90745\"}", "33.82597401600003", "-118.26966920499996", null, false ], "1162", "2", "297", "3354" ]
+, [ "row-hmn7_ffdf_vuep", "00000000-0000-0000-11BA-FEB09A112B1D", 0, 1500480899, null, 1500480899, null, "{ }", "91775", "San Gabriel", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91775\"}", "34.115651187000026", "-118.08573643299997", null, false ], "1744", "5", "214", "10135" ]
+, [ "row-gr9x_jxs3.38pc", "00000000-0000-0000-0E21-5F791B429E75", 0, 1500480899, null, 1500480899, null, "{ }", "90013", "Los Angeles", null, null, "Federal", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90013\"}", "34.04602247400004", "-118.24624962599995", null, false ], "1247", "1", "365", "23074" ]
+, [ "row-277i-b8i9.ttkv", "00000000-0000-0000-D98B-910B6C452DD1", 0, 1500480899, null, 1500480899, null, "{ }", "90814", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90814\"}", "33.771431161000066", "-118.15235840199995", null, false ], "53", "4", "19", "2436" ]
+, [ "row-3cbj-2eqe_q6r7", "00000000-0000-0000-2823-8F0BD10CD5E2", 0, 1500480899, null, 1500480899, null, "{ }", "91504", "Burbank", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91504\"}", "34.198254087000066", "-118.33049928199995", null, false ], "1330", "5", "295", "20148" ]
+, [ "row-i4i2_hpnh-n7x8", "00000000-0000-0000-9D17-492B7D4E57D3", 0, 1500480899, null, 1500480899, null, "{ }", "91006", "Arcadia", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91006\"}", "34.13222303800006", "-118.02498891099998", null, false ], "1743", "5", "285", "2445" ]
+, [ "row-vguy.2cxp_xxgp", "00000000-0000-0000-EB6E-2CF50ED60125", 0, 1500480899, null, 1500480899, null, "{ }", "91610", "Toluca Lake", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91610\"}", "34.15221006300004", "-118.35022995199995", null, false ], "1586", "3", "409", "8489" ]
+, [ "row-66aj~8j7k~75tr", "00000000-0000-0000-0B36-DC7CF27E4BB6", 0, 1500480899, null, 1500480899, null, "{ }", "90068", "Los Angeles", "Hollywood", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90068\"}", "34.11525144700005", "-118.33141607899995", null, false ], "1441", "3", "360", "24033" ]
+, [ "row-n98j_7wsi.hx2x", "00000000-0000-0000-BC61-9D1A778B41B9", 0, 1500480899, null, 1500480899, null, "{ }", "91405", "Van Nuys", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91405\"}", "34.20047004000003", "-118.44869646699999", null, false ], "412", "3", "430", "19733" ]
+, [ "row-whmd_44b7_yr6y", "00000000-0000-0000-D327-FA0B1E93714F", 0, 1500480899, null, 1500480899, null, "{ }", "91731", "El Monte", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91731\"}", "34.078814231000024", "-118.03912755899995", null, false ], "1725", "1", "307", "9311" ]
+, [ "row-fqkr.7a6m.uucz", "00000000-0000-0000-4CFA-07C6909B150F", 0, 1500480899, null, 1500480899, null, "{ }", "93243", "Lebec", "Gorman", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93243\"}", "34.874840963000054", "-118.88918877999998", null, false ], null, null, null, "5931" ]
+, [ "row-em9d.6346~2dkk", "00000000-0000-0000-C3EC-0F0FAF9F5460", 0, 1500480899, null, 1500480899, null, "{ }", "92301", "Adelanto", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92301\"}", "34.557681632000026", "-117.43825674799996", null, false ], null, null, null, "18825" ]
+, [ "row-hrte_35x7.3vrn", "00000000-0000-0000-2C8A-28EEBF3790E4", 0, 1500480899, null, 1500480899, null, "{ }", "92805", "Anaheim", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92805\"}", "33.83284346900007", "-117.90784756199997", null, false ], null, null, null, "1259" ]
+, [ "row-7gtq_fcxe-692r", "00000000-0000-0000-B991-FAACE0A64995", 0, 1500480899, null, 1500480899, null, "{ }", "90502", "Torrance", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90502\"}", "33.83163121300004", "-118.29281939499998", null, false ], "1239", "2", "253", "25716" ]
+, [ "row-ixrv.ey53_ud9f", "00000000-0000-0000-8AEC-4645B66860D2", 0, 1500480899, null, 1500480899, null, "{ }", "91505", "Burbank", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91505\"}", "34.167673938000064", "-118.34449888999995", null, false ], "1610", "5", "295", "20150" ]
+, [ "row-vidr.zmzd~r3hx", "00000000-0000-0000-147B-64EEFE6D748E", 0, 1500480899, null, 1500480899, null, "{ }", "90290", "Topanga", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90290\"}", "34.10128225400007", "-118.60494720999998", null, false ], "533", "3", "33", "25072" ]
+, [ "row-fs5t.vsir~ye6z", "00000000-0000-0000-7A0F-780DBB89B49E", 0, 1500480899, null, 1500480899, null, "{ }", "90028", "Los Angeles", "Hollywood", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90028\"}", "34.10072174800007", "-118.32821815499994", null, false ], "1554", "3", "359", "23446" ]
+, [ "row-kf6q~9phe-96py", "00000000-0000-0000-61EB-451F3F78659A", 0, 1500480899, null, 1500480899, null, "{ }", "91413", "Sherman Oaks", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91413\"}", "34.16488010000006", "-118.45744730799998", null, false ], "477", "3", "44", "19735" ]
+, [ "row-wzwu.7a7g~3fqs", "00000000-0000-0000-A7CA-BE0715C7B3EE", 0, 1500480899, null, 1500480899, null, "{ }", "93510", "Acton", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93510\"}", "34.489013165000074", "-118.19703809399999", null, false ], "264", "5", "110", "7511" ]
+, [ "row-j88c~pc6s_wz88", "00000000-0000-0000-085F-06B4E1C4D893", 0, 1500480899, null, 1500480899, null, "{ }", "90272", "Pacific Palisades", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90272\"}", "34.04886410800003", "-118.53572692699998", null, false ], "395", "3", "30", "25066" ]
+, [ "row-i86q_34ts~h7f9", "00000000-0000-0000-84C5-ECA3469D70FC", 0, 1500480899, null, 1500480899, null, "{ }", "90210", "Beverly Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90210\"}", "34.08553160900004", "-118.40426878599999", null, false ], "1489", "3", "292", "24346" ]
+, [ "row-5fs7~jzmi_fzi8", "00000000-0000-0000-E38A-4EEF9E95FF09", 0, 1500480899, null, 1500480899, null, "{ }", "90296", "Playa Del Rey", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90296\"}", "33.988120931000026", "-118.46967849899994", null, false ], "455", "3", "432", "25073" ]
+, [ "row-7s4n_g3cn.iq69", "00000000-0000-0000-7C8A-DE96C734AAED", 0, 1500480899, null, 1500480899, null, "{ }", "90067", "Los Angeles", "Century City", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90067\"}", "34.05955282100007", "-118.41458817399996", null, false ], "660", "3", "265", "24032" ]
+, [ "row-mcwm-q6qz~mv4h", "00000000-0000-0000-738A-4383DCD64AF6", 0, 1500480899, null, 1500480899, null, "{ }", "90008", "Los Angeles", "View Park", null, "Crenshaw", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90008\"}", "34.01097131500006", "-118.34158773599995", null, false ], "902", "2", "20", "22725" ]
+, [ "row-hean~95tb-c9bk", "00000000-0000-0000-F193-8397108EB2E2", 0, 1500480899, null, 1500480899, null, "{ }", "90755", "Signal Hill", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90755\"}", "33.799760597000045", "-118.16687940999998", null, false ], "114", "4", "98", "3700" ]
+, [ "row-ay7y_diqt-nd2h", "00000000-0000-0000-6720-659E9295B1D4", 0, 1500480899, null, 1500480899, null, "{ }", "92823", "Brea", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92823\"}", "33.92240272300006", "-117.83316995299998", null, false ], null, null, null, "1540" ]
+, [ "row-vqhu_67xv~pbni", "00000000-0000-0000-DF65-967D8D566E9C", 0, 1500480899, null, 1500480899, null, "{ }", "91617", "Valley Village", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91617\"}", "34.16486271900004", "-118.40451645099995", null, false ], "1464", "3", "429", "8890" ]
+, [ "row-wrs3~3htq_tdz2", "00000000-0000-0000-2A16-778CB96D447A", 0, 1500480899, null, 1500480899, null, "{ }", "90255", "Huntington Park", "Walnut Park", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90255\"}", "33.97867054400007", "-118.21899775099996", null, false ], "992", "1", "11", "24689" ]
+, [ "row-h4rb.5t8a_g333", "00000000-0000-0000-C312-8DF09EC6B785", 0, 1500480899, null, 1500480899, null, "{ }", "90805", "Long Beach", null, null, "North Long Beach", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90805\"}", "33.862810972000034", "-118.17910625599995", null, false ], "2029", "4", "19", "4015" ]
+, [ "row-gcvt_w8xy_3gkh", "00000000-0000-0000-405F-8C0DCA40D5C4", 0, 1500480899, null, 1500480899, null, "{ }", "92832", "Fullerton", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92832\"}", "33.86714294300003", "-117.92859930899999", null, false ], null, null, null, "1542" ]
+, [ "row-k44f_zfxq-kmcn", "00000000-0000-0000-79E3-21088E7365F1", 0, 1500480899, null, 1500480899, null, "{ }", "90254", "Hermosa Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90254\"}", "33.86430130900004", "-118.39718642699995", null, false ], "648", "4", "310", "24688" ]
+, [ "row-2g7s~xvki.m9ig", "00000000-0000-0000-388C-119F7F83F7EC", 0, 1500480899, null, 1500480899, null, "{ }", "92831", "Fullerton", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92831\"}", "33.88139021600006", "-117.89174931699995", null, false ], null, null, null, "1541" ]
+, [ "row-zd7j_vhxn-8pd3", "00000000-0000-0000-674D-4A0F19B8BFFB", 0, 1500480899, null, 1500480899, null, "{ }", "90044", "Los Angeles", null, null, "Hancock", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90044\"}", "33.953860562000045", "-118.29194604899999", null, false ], "977", "2", "114", "23675" ]
+, [ "row-3w3u_xrtw~yvs4", "00000000-0000-0000-E064-BD9270CA8973", 0, 1500480899, null, 1500480899, null, "{ }", "91740", "Glendora", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91740\"}", "34.11709372900003", "-117.85499926099999", null, false ], "2323", "5", "308", "9320" ]
+, [ "row-p5f7_zwct~4xd7", "00000000-0000-0000-3371-8DA9251B4E17", 0, 1500480899, null, 1500480899, null, "{ }", "90048", "Los Angeles", "West Hollywood", null, "Bicentennial", "Briggs", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90048\"}", "34.073161378000066", "-118.37406665299994", null, false ], "1566", "3", "334", "23679" ]
+, [ "row-8fct.qmk9~szhz", "00000000-0000-0000-8B44-E6DCC29E258C", 0, 1500480899, null, 1500480899, null, "{ }", "90022", "Los Angeles", "East Los Angeles", "Commerce", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90022\"}", "34.02358052100004", "-118.15511747999994", null, false ], "1965", "1", "162", "23440" ]
+, [ "row-3r6f~8eip.e3k2", "00000000-0000-0000-1998-9DA5D978400A", 0, 1500480899, null, 1500480899, null, "{ }", "93544", "Llano", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93544\"}", "34.494170686000075", "-117.79374771799996", null, false ], "1", "5", "206", "27319" ]
+, [ "row-34vv_vjnm.778c", "00000000-0000-0000-D7FF-3E7B066D3129", 0, 1500480899, null, 1500480899, null, "{ }", "90265", "Malibu", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90265\"}", "34.035060025000064", "-118.76029853699998", null, false ], "252", "3", "71", "25063" ]
+, [ "row-kvun-y3fx.eg5p", "00000000-0000-0000-3A3D-FFF868E8AF1B", 0, 1500480899, null, 1500480899, null, "{ }", "90058", "Los Angeles", "Vernon", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90058\"}", "34.001842458000056", "-118.221126804", null, false ], "860", "1", "103", "24353" ]
+, [ "row-uxwh_vihx~ce97", "00000000-0000-0000-4C91-3DFE8B6CBFEC", 0, 1500480899, null, 1500480899, null, "{ }", "90201", "Bell Gardens", "Bell", "Cudahy", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90201\"}", "33.969580792000045", "-118.17504802099995", null, false ], "1891", "1", "289", "24345" ]
+, [ "row-hx7q~9p26-f888", "00000000-0000-0000-8681-6ADA5F034822", 0, 1500480899, null, 1500480899, null, "{ }", "90016", "Los Angeles", null, null, "West Adams", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90016\"}", "34.028881427000044", "-118.35308896599997", null, false ], "714", "2", "309", "23077" ]
+, [ "row-6upy~5zyb-4yjr", "00000000-0000-0000-B0B8-59B5BECFEB05", 0, 1500480899, null, 1500480899, null, "{ }", "91601", "North Hollywood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91601\"}", "34.16713081200004", "-118.37252852099999", null, false ], "1461", "3", "394", "8488" ]
+, [ "row-du92-5tm3.de4w", "00000000-0000-0000-9A7F-09B2314D7776", 0, 1500480899, null, 1500480899, null, "{ }", "91776", "San Gabriel", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91776\"}", "34.08980274900006", "-118.09671626199997", null, false ], "1856", "5", "38", "10137" ]
+, [ "row-5dnw-fat6.meev", "00000000-0000-0000-B9A6-7A8C9384849A", 0, 1500480899, null, 1500480899, null, "{ }", "93543", "Littlerock", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93543\"}", "34.53302372600007", "-117.95804975599998", null, false ], "2201", "5", "203", "27318" ]
+, [ "row-3b6p_cuuz~t64g", "00000000-0000-0000-3C8B-C18F93F175A6", 0, 1500480899, null, 1500480899, null, "{ }", "91326", "Porter Ranch", "Northridge", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91326\"}", "34.27493039900003", "-118.55013930999996", null, false ], "583", "5", "401", "18905" ]
+, [ "row-newa.586d_bwfi", "00000000-0000-0000-78B9-4647A11A1E4D", 0, 1500480899, null, 1500480899, null, "{ }", "90065", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90065\"}", "34.10881214900007", "-118.22766603699995", null, false ], "1481", "1", "361", "24030" ]
+, [ "row-dwxk~tiem-ynv3", "00000000-0000-0000-AC2E-A3E37E275671", 0, 1500480899, null, 1500480899, null, "{ }", "90007", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90007\"}", "34.02833395700003", "-118.28507659499996", null, false ], "725", "2", "427", "22724" ]
+, [ "row-w4w2-mdhc.pqhi", "00000000-0000-0000-B54D-434DA15E881D", 0, 1500480899, null, 1500480899, null, "{ }", "90270", "Maywood", "Bell Gardens", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90270\"}", "33.98850329100003", "-118.18894769299999", null, false ], "700", "1", "72", "25065" ]
+, [ "row-6xw9~wisk~uf3v", "00000000-0000-0000-BB5C-A8AD4A929726", 0, 1500480899, null, 1500480899, null, "{ }", "91744", "La Puente", "Industry", "Valinda", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91744\"}", "34.030754125000044", "-117.93966603799998", null, false ], "1903", "1", "15", "9324" ]
+, [ "row-r534.2wji~uqrv", "00000000-0000-0000-934F-5F49AFE3436A", 0, 1500480899, null, 1500480899, null, "{ }", "90062", "Los Angeles", null, null, "Westvern", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90062\"}", "34.00387157600005", "-118.30885680999995", null, false ], "1053", "2", "439", "24027" ]
+, [ "row-kci3_p5qi~v7qf", "00000000-0000-0000-55D1-8F82D0F42AD1", 0, 1500480899, null, 1500480899, null, "{ }", "91402", "Panorama City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91402\"}", "34.225753627000074", "-118.44892675199998", null, false ], "375", "3", "395", "19730" ]
+, [ "row-cyct~qsas_hqpv", "00000000-0000-0000-EB80-72FE4629AD85", 0, 1500480899, null, 1500480899, null, "{ }", "91207", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91207\"}", "34.16381122800004", "-118.24788769299994", null, false ], "1520", "5", "305", "3635" ]
+, [ "row-k627_yji6~55ux", "00000000-0000-0000-FB44-E7BEAE292ACD", 0, 1500480899, null, 1500480899, null, "{ }", "91107", "Pasadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91107\"}", "34.150763177000044", "-118.09228870099997", null, false ], "1811", "5", "81", "3236" ]
+, [ "row-tiik~8m34-sbp6", "00000000-0000-0000-E114-EF0505A5494D", 0, 1500480899, null, 1500480899, null, "{ }", "90047", "Los Angeles", null, null, "Wagner", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90047\"}", "33.95687165100003", "-118.30907840499998", null, false ], "1118", "2", "362", "23678" ]
+, [ "row-g3bs~ccmg-x4k2", "00000000-0000-0000-C5CB-F693A6633ABE", 0, 1500480899, null, 1500480899, null, "{ }", "90049", "Los Angeles", "Brentwood", null, "Barrington", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90049\"}", "34.06172097900003", "-118.47225943199999", null, false ], "579", "3", "23", "23680" ]
+, [ "row-ea77_jn2w_ua8x", "00000000-0000-0000-38C0-BCA08160E3C6", 0, 1500480899, null, 1500480899, null, "{ }", "91506", "Burbank", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91506\"}", "34.17111083700007", "-118.32257833699998", null, false ], "1629", "5", "295", "8487" ]
+, [ "row-8w2c_5hbv-tys7", "00000000-0000-0000-EB34-9933DA7B09E0", 0, 1500480899, null, 1500480899, null, "{ }", "91502", "Burbank", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91502\"}", "34.17644215900003", "-118.30647574699998", null, false ], "1628", "5", "295", "20146" ]
+, [ "row-yvdv.2cxp~gthk", "00000000-0000-0000-019A-6E695B87DA8F", 0, 1500480899, null, 1500480899, null, "{ }", "90803", "Long Beach", null, null, "Belmont Shore", "Naples", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90803\"}", "33.76151151400006", "-118.13748979299999", null, false ], "146", "4", "19", "3709" ]
+, [ "row-w2jm~swag.yu6g", "00000000-0000-0000-14AE-7D56894C0627", 0, 1500480899, null, 1500480899, null, "{ }", "90015", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90015\"}", "34.04012195700005", "-118.26498963499995", null, false ], "1255", "1", "343", "23076" ]
+, [ "row-ew34-whpu-quyj", "00000000-0000-0000-6182-DE154BBA216F", 0, 1500480899, null, 1500480899, null, "{ }", "93551", "Palmdale", "Quartz Hill", "Leona Valley", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93551\"}", "34.60587208800007", "-118.18323835599995", null, false ], "277", "5", "222", "27324" ]
+, [ "row-zz2i~4ki5_tnmg", "00000000-0000-0000-957A-F99F3347D043", 0, 1500480899, null, 1500480899, null, "{ }", "90505", "Torrance", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90505\"}", "33.81145300700007", "-118.34787930399995", null, false ], "139", "4", "102", "25719" ]
+, [ "row-rc6a_dkgu_z53w", "00000000-0000-0000-28FA-DD3D47B86992", 0, 1500480899, null, 1500480899, null, "{ }", "91786", "Upland", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91786\"}", "34.10199049000005", "-117.65981726799998", null, false ], null, null, null, "10143" ]
+, [ "row-c4es-g5m4.83ws", "00000000-0000-0000-70A9-DE13FCAA2574", 0, 1500480899, null, 1500480899, null, "{ }", "91302", "Calabasas", "Hidden Hills", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91302\"}", "34.143272387000025", "-118.66282702799998", null, false ], "630", "3", "4", "4277" ]
+, [ "row-f6hh_nvh3.x39p", "00000000-0000-0000-F692-700108F474A5", 0, 1500480899, null, 1500480899, null, "{ }", "90211", "Beverly Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90211\"}", "34.06566189900008", "-118.38146619699995", null, false ], "808", "3", "292", "24347" ]
+, [ "row-pxui.5wa3-mj6h", "00000000-0000-0000-B1AE-B2EFD9C2E005", 0, 1500480899, null, 1500480899, null, "{ }", "90712", "Lakewood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90712\"}", "33.84907206500003", "-118.14617980399998", null, false ], "2003", "4", "17", "2980" ]
+, [ "row-8u6g-ru9t.af72", "00000000-0000-0000-2517-5EE059176249", 0, 1500480899, null, 1500480899, null, "{ }", "90073", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90073\"}", "34.034690700000056", "-118.43711702699994", null, false ], "819", "2", "402", "24029" ]
+, [ "row-yrmt_apsf~c7e4", "00000000-0000-0000-2F40-A29703916981", 0, 1500480899, null, 1500480899, null, "{ }", "91706", "Baldwin Park", "Irwindale", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91706\"}", "34.08512317900005", "-117.96798678399995", null, false ], "1704", "1", "288", "8895" ]
+, [ "row-ca2y_v6jb-arkw", "00000000-0000-0000-2F97-50D475F595D0", 0, 1500480899, null, 1500480899, null, "{ }", "91710", "Chino", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91710\"}", "34.017832078000026", "-117.68943717099995", null, false ], null, null, null, "8898" ]
+, [ "row-h3jw.g78t-ecn2", "00000000-0000-0000-A340-F921C58710C9", 0, 1500480899, null, 1500480899, null, "{ }", "91385", "Valencia", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91385\"}", "34.39058141000004", "-118.56088885399998", null, false ], "268", "5", "90", "19338" ]
+, [ "row-eted.khtr.kn3u", "00000000-0000-0000-920C-277328C6E6CC", 0, 1500480899, null, 1500480899, null, "{ }", "90059", "Los Angeles", null, null, "Greenmead", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90059\"}", "33.92701277300006", "-118.24839605899996", null, false ], "1090", "2", "282", "24354" ]
+, [ "row-e8m8~dtr7.sb9p", "00000000-0000-0000-E6AF-40F41A09A33E", 0, 1500480899, null, 1500480899, null, "{ }", "90895", "Carson", null, null, "Lakeshore Learning", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90895\"}", "33.83926104200003", "-118.27444871199998", null, false ], "1161", "2", "297", "3354" ]
+, [ "row-gv8z-x9jd~bvuy", "00000000-0000-0000-A03F-011AD3BAED2D", 0, 1500480899, null, 1500480899, null, "{ }", "90715", "Lakewood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90715\"}", "33.839660783000056", "-118.07954914499999", null, false ], "1988", "4", "17", "3333" ]
+, [ "row-xm99-rgvi-p5i7", "00000000-0000-0000-6706-286EC7D4ADC8", 0, 1500480899, null, 1500480899, null, "{ }", "90813", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90813\"}", "33.78137253400007", "-118.18660573499994", null, false ], "6", "4", "19", "4026" ]
+, [ "row-igi5~n3ip_qtnj", "00000000-0000-0000-A2CE-BFB1D0AF1580", 0, 1500480899, null, 1500480899, null, "{ }", "91327", "Northridge", "Porter Ranch", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91327\"}", "34.27504336900006", "-118.55377607999998", null, false ], "583", "5", "401", "18905" ]
+, [ "row-k2g7-mfxb~yy4a", "00000000-0000-0000-F310-0281731D143D", 0, 1500480899, null, 1500480899, null, "{ }", "90263", "Malibu", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90263\"}", "34.03476022000007", "-118.70434790099995", null, false ], "251", "3", "71", "25062" ]
+, [ "row-ikq6~qeh7.rxb5", "00000000-0000-0000-8747-6FA7C2E1E6C3", 0, 1500480899, null, 1500480899, null, "{ }", "91352", "Sun Valley", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91352\"}", "34.22551030600005", "-118.37651723599998", null, false ], "1379", "3", "419", "19335" ]
+, [ "row-pird-2udi~jwrn", "00000000-0000-0000-8418-94AEE11CDEC5", 0, 1500480899, null, 1500480899, null, "{ }", "90224", "Compton", "Rancho Dominguez", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90224\"}", "33.89040175700006", "-118.21614742799994", null, false ], "706", "2", "7", "24350" ]
+, [ "row-2hxn.nx27~yjb3", "00000000-0000-0000-C415-799172AC9F09", 0, 1500480899, null, 1500480899, null, "{ }", "90605", "Whittier", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90605\"}", "33.94588313200006", "-118.03256659999994", null, false ], "2174", "4", "262", "25725" ]
+, [ "row-83v4.5ygw-u8ng", "00000000-0000-0000-B37A-46B41C6EB5E0", 0, 1500480899, null, 1500480899, null, "{ }", "90404", "Santa Monica", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90404\"}", "34.02784297100004", "-118.47471870499999", null, false ], "442", "3", "93", "25713" ]
+, [ "row-9r6c-jw7e~skir", "00000000-0000-0000-9A72-23A0A977FC92", 0, 1500480899, null, 1500480899, null, "{ }", "91118", "San Marino", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91118\"}", "34.12654411600005", "-118.09192806499999", null, false ], "1731", "5", "39", "3238" ]
+, [ "row-jteb.ndgn~f8sz", "00000000-0000-0000-0272-0BF655D69CFC", 0, 1500480899, null, 1500480899, null, "{ }", "92801", "Anaheim", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92801\"}", "33.842193921000046", "-117.95265760399997", null, false ], null, null, null, "1256" ]
+, [ "row-kyhx~uac9~htyx", "00000000-0000-0000-5C61-A2B8999BE9F7", 0, 1500480899, null, 1500480899, null, "{ }", "91792", "West Covina", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91792\"}", "34.02193376400004", "-117.90013952299995", null, false ], "2249", "1", "105", "10148" ]
+, [ "row-engf~iksq-j2cu", "00000000-0000-0000-CCD6-CCDA58509DC2", 0, 1500480899, null, 1500480899, null, "{ }", "91607", "Valley Village", null, null, "SHERMAN VILLAGE", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91607\"}", "34.16615318600003", "-118.399337205", null, false ], "1276", "3", "429", "8890" ]
+, [ "row-6v3j.rsg2-a2ii", "00000000-0000-0000-97B8-9F8FA5CF2430", 0, 1500480899, null, 1500480899, null, "{ }", "91303", "Canoga Park", "Woodland Hills", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91303\"}", "34.19807159700008", "-118.59909883199998", null, false ], "437", "3", "333", "4278" ]
+, [ "row-78r9~gvtx-web8", "00000000-0000-0000-E2C7-DBD0B9AE4E79", 0, 1500480899, null, 1500480899, null, "{ }", "90230", "Culver City", "Los Angeles", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90230\"}", "33.99506425000004", "-118.39500957899998", null, false ], "1069", "2", "9", "24678" ]
+, [ "row-zdpd-hech~sgys", "00000000-0000-0000-79AD-4D3A2E39B7B0", 0, 1500480899, null, 1500480899, null, "{ }", "91376", "Agoura Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91376\"}", "34.14707426700005", "-118.75386792799998", null, false ], "368", "3", "1", "4276" ]
+, [ "row-2p5i-ttw4.i52a", "00000000-0000-0000-B635-1D57E6DB4E30", 0, 1500480899, null, 1500480899, null, "{ }", "90040", "Los Angeles", "Commerce", null, "City Of Commerce", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90040\"}", "33.99649375600006", "-118.15148940099999", null, false ], "2051", "1", "300", "23671" ]
+, [ "row-mvts-wwyt.8swg", "00000000-0000-0000-A1EB-EF18F75ADB13", 0, 1500480899, null, 1500480899, null, "{ }", "91364", "Woodland Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91364\"}", "34.16201239600008", "-118.59846880699996", null, false ], "595", "3", "69", "19346" ]
+, [ "row-99sp.9s7j-9d83", "00000000-0000-0000-397B-2662718109FF", 0, 1500480899, null, 1500480899, null, "{ }", "91767", "Pomona", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91767\"}", "34.080760793000024", "-117.73770583699996", null, false ], "2254", "1", "83", "10128" ]
+, [ "row-pnyq_hwe5-gusv", "00000000-0000-0000-5331-DE1A191B7087", 0, 1500480899, null, 1500480899, null, "{ }", "91307", "West Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91307\"}", "34.19781089600008", "-118.63800835699999", null, false ], "427", "3", "441", "4283" ]
+, [ "row-qzv5_qj92-46vk", "00000000-0000-0000-E5AD-D6FB3730FD95", 0, 1500480899, null, 1500480899, null, "{ }", "91521", "Burbank", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91521\"}", "34.187313363000044", "-118.34905680099996", null, false ], "1631", "5", "295", "20150" ]
+, [ "row-f7tj_r847.2g56", "00000000-0000-0000-0B0F-B8F3E8BAFD39", 0, 1500480899, null, 1500480899, null, "{ }", "91403", "Sherman Oaks", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91403\"}", "34.15450422600003", "-118.45955898099999", null, false ], "600", "3", "44", "19732" ]
+, [ "row-ptsd_jhiu.fknk", "00000000-0000-0000-CD77-26F0014A93DE", 0, 1500480899, null, 1500480899, null, "{ }", "90710", "Harbor City", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90710\"}", "33.79480294600006", "-118.29872860199998", null, false ], "27", "4", "369", "26327" ]
+, [ "row-uxve.n82y~wb9w", "00000000-0000-0000-E5DB-44E9724BEF06", 0, 1500480899, null, 1500480899, null, "{ }", "91380", "Santa Clarita", "Valencia", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91380\"}", "34.421682960000055", "-118.56184909999996", null, false ], "279", "5", "90", "19338" ]
+, [ "row-3pm8.v9sa.dyb7", "00000000-0000-0000-F2A5-7640230966EC", 0, 1500480899, null, 1500480899, null, "{ }", "92683", "Westminster", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92683\"}", "33.753842579000036", "-117.99399598599996", null, false ], null, null, null, "12864" ]
+, [ "row-qx3g~qu2j_nziz", "00000000-0000-0000-E314-1E58E3E07FDC", 0, 1500480899, null, 1500480899, null, "{ }", "90621", "Buena Park", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90621\"}", "33.870371282000065", "-117.99698969499997", null, false ], null, null, null, "25728" ]
+, [ "row-wfv6~bbqi~773y", "00000000-0000-0000-B361-6244CC93C46E", 0, 1500480899, null, 1500480899, null, "{ }", "90032", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90032\"}", "34.081512479000025", "-118.17678602299998", null, false ], "1729", "1", "349", "23449" ]
+, [ "row-t8cu~bde2~gjf5", "00000000-0000-0000-5371-21835EBE5210", 0, 1500480899, null, 1500480899, null, "{ }", "91330", "Northridge", null, null, "CA State Univ Northridge", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91330\"}", "34.24341172900006", "-118.53609625299998", null, false ], "520", "3", "396", "18514" ]
+, [ "row-rzqt~chr5_i9fu", "00000000-0000-0000-977E-061E47FA4C33", 0, 1500480899, null, 1500480899, null, "{ }", "93536", "Lancaster", "Del Sur", null, "Fairmont", "Metler Valley", "Neenach", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93536\"}", "34.68816214700007", "-118.23417920099996", null, false ], "192", "5", "18", "26967" ]
+, [ "row-hmxp-4pjs~ht36", "00000000-0000-0000-761D-0446BB5C82A7", 0, 1500480899, null, 1500480899, null, "{ }", "90274", "Palos Verdes Peninsula", "Palos Verdes Estates", "Rolling Hills", null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90274\"}", "33.77664082300004", "-118.37785984199996", null, false ], "122", "4", "86", "25067" ]
+, [ "row-k95h-een6-kc72", "00000000-0000-0000-5CD1-31095430B53F", 0, 1500480899, null, 1500480899, null, "{ }", "91354", "Valencia", "Santa Clarita", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91354\"}", "34.44749229200005", "-118.54920947899996", null, false ], "315", "5", "90", "19336" ]
+, [ "row-e9c3_atzx_f6hh", "00000000-0000-0000-02BC-93837386FB3E", 0, 1500480899, null, 1500480899, null, "{ }", "90017", "Los Angeles", null, null, "Foy", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90017\"}", "34.05230100700004", "-118.26338632699998", null, false ], "959", "1", "442", "23078" ]
+, [ "row-p8it_h426~s4f4", "00000000-0000-0000-0856-684C1CAF10BB", 0, 1500480899, null, 1500480899, null, "{ }", "90740", "Seal Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90740\"}", "33.761194329000034", "-118.08841730099999", null, false ], null, null, null, "3346" ]
+, [ "row-4rk2~4tpe_4922", "00000000-0000-0000-F516-E0A798065C33", 0, 1500480899, null, 1500480899, null, "{ }", "91741", "Glendora", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91741\"}", "34.13905338700005", "-117.85502967599996", null, false ], "2276", "5", "308", "9322" ]
+, [ "row-ktr2~zvsm-ccmi", "00000000-0000-0000-4953-302FE07A1DBD", 0, 1500480899, null, 1500480899, null, "{ }", "91304", "Canoga Park", "West Hills", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91304\"}", "34.22192133200008", "-118.60967892099995", null, false ], "499", "5", "441", "4279" ]
+, [ "row-tkxj~za6s-76fu", "00000000-0000-0000-B16D-5561EF52C2F5", 0, 1500480899, null, 1500480899, null, "{ }", "90504", "Torrance", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90504\"}", "33.87165305800005", "-118.33125965799996", null, false ], "780", "4", "102", "25718" ]
+, [ "row-62ts~r8bp~xycs", "00000000-0000-0000-66F1-78DB0E80FD71", 0, 1500480899, null, 1500480899, null, "{ }", "90026", "Los Angeles", null, null, "Echo Park", "Edendale", "Silver Lake", [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90026\"}", "34.07687201300007", "-118.26535895999996", null, false ], "1493", "1", "412", "23444" ]
+, [ "row-ggip-2g2b~n9dv", "00000000-0000-0000-F788-C6B77C59E7BF", 0, 1500480899, null, 1500480899, null, "{ }", "90262", "Lynwood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90262\"}", "33.925122696000074", "-118.20319931099999", null, false ], "937", "2", "70", "24691" ]
+, [ "row-zqeu.39ay-c9e6", "00000000-0000-0000-5D57-1023DD82D5AB", 0, 1500480899, null, 1500480899, null, "{ }", "90077", "Los Angeles", null, null, "Barrington", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90077\"}", "34.104093473000034", "-118.45101669999997", null, false ], "537", "3", "21", "24037" ]
+, [ "row-hrqv-zs6d.n7b4", "00000000-0000-0000-3A1C-2B069E1C05C6", 0, 1500480899, null, 1500480899, null, "{ }", "91324", "Northridge", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91324\"}", "34.23552119900006", "-118.54598982999994", null, false ], "522", "3", "396", "18513" ]
+, [ "row-chca.8em6-qsps", "00000000-0000-0000-AC5A-919FD51633C9", 0, 1500480899, null, 1500480899, null, "{ }", "91203", "Glendale", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91203\"}", "34.15282270900008", "-118.26132679499995", null, false ], "1346", "5", "305", "3629" ]
+, [ "row-6tnt~bsey-xwe6", "00000000-0000-0000-BDF5-511C088E6016", 0, 1500480899, null, 1500480899, null, "{ }", "90305", "Inglewood", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90305\"}", "33.958092598000064", "-118.32920881599995", null, false ], "936", "2", "13", "25425" ]
+, [ "row-t9jr~uqq7~2n5u", "00000000-0000-0000-9419-4CF775E6F9FA", 0, 1500480899, null, 1500480899, null, "{ }", "91501", "Burbank", null, null, "Starlight Hills", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91501\"}", "34.18518431000007", "-118.30236971699998", null, false ], "1332", "5", "295", "19739" ]
+, [ "row-ei4i.ixfy.bw8d", "00000000-0000-0000-2CD0-4B39C01BF7DB", 0, 1500480899, null, 1500480899, null, "{ }", "90603", "Whittier", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90603\"}", "33.94370194000004", "-117.99197990399995", null, false ], "2112", "4", "108", "25723" ]
+, [ "row-crvm.fr9t~b72f", "00000000-0000-0000-F617-B028C6383892", 0, 1500480899, null, 1500480899, null, "{ }", "92647", "Huntington Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"92647\"}", "33.72037300200003", "-118.00086978499996", null, false ], null, null, null, "12563" ]
+, [ "row-9ghc_b87f~5tm9", "00000000-0000-0000-4D02-F51C6BD6BD16", 0, 1500480899, null, 1500480899, null, "{ }", "91495", "Sherman Oaks", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91495\"}", "34.20122172600003", "-118.47497940499994", null, false ], "411", "3", "375", "19734" ]
+, [ "row-cqns_vuya~kjaz", "00000000-0000-0000-0241-ED87FEF69427", 0, 1500480899, null, 1500480899, null, "{ }", "91105", "Pasadena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91105\"}", "34.13698081900003", "-118.159175716", null, false ], "1801", "5", "81", "3233" ]
+, [ "row-jk6i_pa5m.fsw9", "00000000-0000-0000-EA4D-368721F9BD61", 0, 1500480899, null, 1500480899, null, "{ }", "90027", "Los Angeles", null, null, "Hollywood", "Los Feliz", null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90027\"}", "34.10546214900006", "-118.29236751399998", null, false ], "1457", "3", "27", "23445" ]
+, [ "row-zhjd_9i9f_bgik", "00000000-0000-0000-94D6-1B26B2E426B5", 0, 1500480899, null, 1500480899, null, "{ }", "93591", "Palmdale", "Lake Los Angeles", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"93591\"}", "34.596760611000036", "-117.83826664399999", null, false ], "2210", "5", "194", "27334" ]
+, [ "row-g76c.p4q9-7g4x", "00000000-0000-0000-A9BC-B3988578DC09", 0, 1500480899, null, 1500480899, null, "{ }", "90024", "Los Angeles", null, null, "Village", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90024\"}", "34.06136034300005", "-118.44023674099998", null, false ], "389", "3", "60", "23442" ]
+, [ "row-h5ns.ve96-kfz8", "00000000-0000-0000-476B-E9C7CC01D078", 0, 1500480899, null, 1500480899, null, "{ }", "91426", "Encino", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91426\"}", "34.16012231800005", "-118.50103640299994", null, false ], "598", "3", "26", "19737" ]
+, [ "row-whka~tzxz~a5uw", "00000000-0000-0000-CB6F-031B232CBD51", 0, 1500480899, null, 1500480899, null, "{ }", "90831", "Long Beach", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90831\"}", "33.76740334100003", "-118.19939743199996", null, false ], "7", "4", "19", "2442" ]
+, [ "row-5bf3_mgs5.bkrf", "00000000-0000-0000-2759-952A57AB6546", 0, 1500480899, null, 1500480899, null, "{ }", "90402", "Santa Monica", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90402\"}", "34.03254426700005", "-118.50584632399995", null, false ], "387", "3", "93", "25711" ]
+, [ "row-7kn3_uzin.tyyi", "00000000-0000-0000-280F-C36DB85EE0BD", 0, 1500480899, null, 1500480899, null, "{ }", "90639", "La Mirada", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90639\"}", "33.90554410100003", "-118.01801952199997", null, false ], "2164", "4", "315", "25732" ]
+, [ "row-i4rj_bk68-eqc3", "00000000-0000-0000-05AD-49D4FF7BF445", 0, 1500480899, null, 1500480899, null, "{ }", "90012", "Los Angeles", null, null, "Federal", null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90012\"}", "34.05948330100006", "-118.24204800499996", null, false ], "686", "1", "339", "22728" ]
+, [ "row-bjc5.nfet_s5nt", "00000000-0000-0000-5356-3E22A7061FEC", 0, 1500480899, null, 1500480899, null, "{ }", "91367", "Woodland Hills", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91367\"}", "34.17858424700006", "-118.60957898599997", null, false ], "566", "3", "69", "19347" ]
+, [ "row-y7zk_cxqr~v2sq", "00000000-0000-0000-C20D-C1ADB162671C", 0, 1500480899, null, 1500480899, null, "{ }", "90011", "Los Angeles", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90011\"}", "34.007903741000064", "-118.259036977", null, false ], "1012", "2", "424", "22727" ]
+, [ "row-fkpj~jxvt.2g34", "00000000-0000-0000-DD15-1A97B43A21A6", 0, 1500480899, null, 1500480899, null, "{ }", "90247", "Gardena", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90247\"}", "33.89189209400007", "-118.29849831699994", null, false ], "776", "2", "304", "24684" ]
+, [ "row-ghhr_ip9v-utga", "00000000-0000-0000-82B3-4DBACCB30AB8", 0, 1500480899, null, 1500480899, null, "{ }", "90601", "Whittier", "City of Industry", null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90601\"}", "33.995472680000034", "-118.04046581999995", null, false ], "1957", "4", "108", "25721" ]
+, [ "row-8rv3.6g7g-u3gi", "00000000-0000-0000-9662-9E15FFD32179", 0, 1500480899, null, 1500480899, null, "{ }", "90630", "Cypress", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"90630\"}", "33.82014301800007", "-118.03980972399995", null, false ], null, null, null, "25730" ]
+, [ "row-ttmh_gwiz.e8xi", "00000000-0000-0000-E9DE-AB7046E3CD79", 0, 1500480899, null, 1500480899, null, "{ }", "91759", "Mt Baldy", null, null, null, null, null, [ "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"91759\"}", "34.237141886000074", "-117.65801843599996", null, false ], null, null, null, "9732" ]
+ ]
+}
